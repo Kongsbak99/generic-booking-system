@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-using BookingApi.Database.Models;
+using BookingApi.Database.Entities;
 using BookingApi.Database;
 
 

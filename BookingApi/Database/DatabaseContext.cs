@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MySql.Data.EntityFrameworkCore;
 
-using BookingApi.Database.Models;
+using BookingApi.Database.Entities;
 
 namespace BookingApi.Database
 {
@@ -12,10 +12,12 @@ namespace BookingApi.Database
     }
     public DatabaseContext() {
     }
-    public DbSet<BookableItem> BookableItem { get; set; }
 
+    //Set Entities
+    public DbSet<BookableItem> BookableItem { get; set; }
     public DbSet<Booking> Booking { get; set; }
 
+    //Configure database context
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
         if (optionsBuilder.IsConfigured) return;
 
@@ -34,12 +36,13 @@ namespace BookingApi.Database
 
 
     //Build database
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
+    protected override void OnModelCreating(ModelBuilder modelBuilder){
       base.OnModelCreating(modelBuilder);
+      modelBuilder.ApplyConfiguration(new SeedBookableItems());
+      modelBuilder.ApplyConfiguration(new SeedBookings());
 
-      modelBuilder.Entity<BookableItem>(entity =>
-      {
+      //BOOKABLE ITEMS TABLE
+      modelBuilder.Entity<BookableItem>(entity =>{
         entity.HasKey(e => e.Id);
         entity.Property(e => e.Name).IsRequired();
         entity.Property(e => e.Location);
@@ -47,13 +50,16 @@ namespace BookingApi.Database
         
       });
 
-      modelBuilder.Entity<Booking>(entity =>
-      {
+      //BOOKING TABLE
+      modelBuilder.Entity<Booking>(entity =>{
         entity.HasKey(e => e.Id);
         entity.Property(e => e.ContactPerson).IsRequired();
         entity.HasOne(d => d.BookedItem)
-          .WithMany(p => p.Bookings);
+          .WithMany(p => p.Bookings)
+          .HasForeignKey(d => d.BookableItemId);
       });
+
+
 
 
     }

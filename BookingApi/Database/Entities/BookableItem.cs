@@ -1,6 +1,7 @@
-using BookingApi.Database.Models;
+using BookingApi.Database.Entities;
 
-namespace BookingApi.Database.Models
+
+namespace BookingApi.Database.Entities
 {
     public class BookableItem
     {

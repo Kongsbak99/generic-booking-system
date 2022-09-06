@@ -2,11 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Text;
 
-using BookingApi.Database.Models;
 
 using Microsoft.EntityFrameworkCore;
 using BookingApi.Database;
-using BookingApi.Database.Models;
+using BookingApi.Database.Entities;
 using BookingApi.Controllers;
 using BookingApi;
 
@@ -18,6 +17,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<DatabaseContext>();
+
 
 //builder.Services.AddSwaggerGen(c =>
 //{
