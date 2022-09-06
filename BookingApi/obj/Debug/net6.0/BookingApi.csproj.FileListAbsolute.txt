@@ -522,3 +522,15 @@
 /Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/obj/Debug/net6.0/BookingApi.pdb
 /Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/obj/Debug/net6.0/BookingApi.genruntimeconfig.cache
 /Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/obj/Debug/net6.0/ref/BookingApi.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/Google.Protobuf.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/K4os.Compression.LZ4.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/K4os.Compression.LZ4.Streams.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/K4os.Hash.xxHash.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/MySql.Data.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/Ubiety.Dns.Core.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/ZstdNet.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/MySql.Data.EntityFrameworkCore.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/MySql.EntityFrameworkCore.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/MySqlConnector.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/victorkongsbak/Library/CloudStorage/OneDrive-Personal/ITO/5. semester/C#/generic-booking-system/BookingApi/bin/Debug/net6.0/BouncyCastle.Crypto.dll

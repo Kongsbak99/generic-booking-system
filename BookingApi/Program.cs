@@ -1,7 +1,80 @@
 using Microsoft.EntityFrameworkCore;
-using BookingApi.Models;
-using BookingApi.DTOs;
+using System;
+using System.Text;
+
+using BookingApi.Database.Models;
+
+
+namespace BookingApi.Database
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      InsertData();
+      PrintData();
+    }
+
+    private static void InsertData()
+    {
+      using(var context = new DatabaseContext())
+      {
+        // Creates the database if not exists
+        context.Database.EnsureCreated();
+
+        // Adds a bookable item
+        var bookableItem = new BookableItem
+        {
+          Name = "Table 1",
+          Location = "Test Location",
+          Description = "This is a description of the bookable item",
+        };
+        context.BookableItem.Add(bookableItem);
+
+        // Adds some bookings
+        context.Booking.Add(new Booking
+        {
+          ContactPerson = "Victor Kongsbak",
+          BookedItem = bookableItem
+        });
+        context.Booking.Add(new Booking
+        {
+          ContactPerson = "Test Name",
+          BookedItem = bookableItem
+        });
+
+        // Saves changes
+        context.SaveChanges();
+      }
+    }
+
+    private static void PrintData()
+    {
+      // Gets and prints all books in database
+      using (var context = new DatabaseContext())
+      {
+        var bookings = context.Booking
+          .Include(p => p.BookedItem);
+        foreach(var booking in bookings)
+        {
+          var data = new StringBuilder();
+          data.AppendLine($"ContactPerson: {booking.ContactPerson}");
+          data.AppendLine($"BookedItem: {booking.BookedItem.Name}");
+          Console.WriteLine(data.ToString());
+        }
+      }
+    }
+  }
+}
+
+
+
+/*
+using Microsoft.EntityFrameworkCore;
+using BookingApi.Database;
+using BookingApi.Database.Models;
 using BookingApi.Controllers;
+using BookingApi;
 
 
 
@@ -10,8 +83,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddDbContext<BookableItemContext>(opt =>
+builder.Services.AddDbContext<DatabaseContext>(opt =>
     opt.UseInMemoryDatabase("BookingDB"));
+
 
 
 //builder.Services.AddSwaggerGen(c =>
@@ -34,3 +108,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+*/
