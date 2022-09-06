@@ -12,11 +12,15 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1126358617,
 =======
         "HashCode": -46686155,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 376001212,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -93,11 +97,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 2006355107,
 =======
         "HashCode": 1946391226,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 345017574,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -175,11 +183,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1970823105,
 =======
         "HashCode": -1588703511,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -874393507,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -210,11 +222,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1221534304,
 =======
         "HashCode": -639538216,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 402462210,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -246,11 +262,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 74349965,
 =======
         "HashCode": 301860708,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1651034742,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -269,11 +289,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 912528329,
 =======
         "HashCode": -393677773,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -2113953797,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -293,11 +317,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1741802334,
 =======
         "HashCode": 827268203,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -931902024,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -393,11 +421,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -25700174,
 =======
         "HashCode": -292273677,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1775047956,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -494,11 +526,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1945167382,
 =======
         "HashCode": 110754067,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 288178833,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -529,11 +565,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -368413104,
 =======
         "HashCode": 1098711349,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1635141648,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -565,11 +605,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -175657471,
 =======
         "HashCode": 1104389257,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1787513493,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -600,11 +644,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -875492349,
 =======
         "HashCode": 1103398826,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1220654081,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -636,11 +684,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -367456322,
 =======
         "HashCode": -567073928,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1378423399,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -671,11 +723,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1722354975,
 =======
         "HashCode": -976607491,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 75944145,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -707,11 +763,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1476459297,
 =======
         "HashCode": -1733930394,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1901163134,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -730,11 +790,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -2057370251,
 =======
         "HashCode": 506670446,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -2010529422,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -754,11 +818,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -48508116,
 =======
         "HashCode": 576653882,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1825178374,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -786,11 +854,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -87609879,
 =======
         "HashCode": -2061881398,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -2108813127,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -819,11 +891,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -145807205,
 =======
         "HashCode": -1700735740,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1514190562,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -842,11 +918,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1135284878,
 =======
         "HashCode": 1407345138,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 503656860,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -866,11 +946,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 108708064,
 =======
         "HashCode": 294048185,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -523375143,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -939,11 +1023,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -353328941,
 =======
         "HashCode": 240266043,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -779989671,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1013,11 +1101,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -851567441,
 =======
         "HashCode": -1579827018,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -220670798,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1036,11 +1128,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -829126630,
 =======
         "HashCode": 4681241,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 222459529,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1060,11 +1156,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1186811615,
 =======
         "HashCode": -2086261422,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -490674670,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1102,11 +1202,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1435513915,
 =======
         "HashCode": 1527811479,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1841294575,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1145,11 +1249,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 608449276,
 =======
         "HashCode": 1553507244,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -468934772,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1187,11 +1295,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 684407699,
 =======
         "HashCode": -1297701640,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1039975661,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1230,11 +1342,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1661187267,
 =======
         "HashCode": -954570530,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -693266851,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1253,11 +1369,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1689519767,
 =======
         "HashCode": 1493502943,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 453393674,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1277,11 +1397,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1430354918,
 =======
         "HashCode": -1166875158,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1405647060,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1319,11 +1443,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 296945721,
 =======
         "HashCode": -835172608,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -455287035,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1362,11 +1490,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1523327684,
 =======
         "HashCode": -298179541,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1242033998,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1465,11 +1597,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1532638868,
 =======
         "HashCode": -788891329,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 907005029,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1569,11 +1705,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1934109324,
 =======
         "HashCode": -1687720939,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -260888525,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1592,11 +1732,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1178260541,
 =======
         "HashCode": -1926799673,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 978761935,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1616,11 +1760,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1688241582,
 =======
         "HashCode": 1161302382,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1763140976,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1651,11 +1799,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 736099387,
 =======
         "HashCode": 561104751,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 814618800,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1687,11 +1839,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -753813136,
 =======
         "HashCode": -2065228652,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 2033784717,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1710,11 +1866,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -665094290,
 =======
         "HashCode": -988055352,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1168851566,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1734,11 +1894,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1918255098,
 =======
         "HashCode": 511459023,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 48810308,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1755,11 +1919,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 874180787,
 =======
         "HashCode": 1744295857,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -595673562,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1777,11 +1945,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 907979129,
 =======
         "HashCode": -1376213193,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1771713824,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1877,11 +2049,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -2027872646,
 =======
         "HashCode": -1001651958,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1264361542,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1978,11 +2154,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -489353314,
 =======
         "HashCode": -2120270330,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -917412326,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2013,11 +2193,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 82856191,
 =======
         "HashCode": -1951200787,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 222993188,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2049,11 +2233,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -8817118,
 =======
         "HashCode": 1401153190,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 19321452,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2118,11 +2306,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1691857418,
 =======
         "HashCode": -1297377299,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 619442596,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2188,11 +2380,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1322277473,
 =======
         "HashCode": -622078229,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1902069480,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2291,11 +2487,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1955790086,
 =======
         "HashCode": -1194087296,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 671408237,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2395,11 +2595,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1171346258,
 =======
         "HashCode": 784389133,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1061414374,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2437,11 +2641,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 833990955,
 =======
         "HashCode": -986367351,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1874400970,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2480,11 +2688,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -93440040,
 =======
         "HashCode": -647710859,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 2040043497,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2573,11 +2785,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -5242822,
 =======
         "HashCode": -2127649964,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1042649054,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2667,11 +2883,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 840571183,
 =======
         "HashCode": -1516595841,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1717879987,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2730,11 +2950,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1468210391,
 =======
         "HashCode": -628748137,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1408936747,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2794,11 +3018,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 2014188486,
 =======
         "HashCode": 1040049249,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1201914993,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2897,11 +3125,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1527496039,
 =======
         "HashCode": 693453019,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1742541722,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3001,11 +3233,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -167002305,
 =======
         "HashCode": 1339362956,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1568701870,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3024,11 +3260,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1393539804,
 =======
         "HashCode": 1575044222,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 832083511,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3048,11 +3288,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -466237501,
 =======
         "HashCode": 1218957615,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1657268868,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3142,11 +3386,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 356111904,
 =======
         "HashCode": 2109379057,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1945873717,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3237,11 +3485,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -898854060,
 =======
         "HashCode": 1829506562,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -53624930,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3260,11 +3512,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 313196305,
 =======
         "HashCode": 1343792750,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1711586547,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3284,11 +3540,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1810748184,
 =======
         "HashCode": 1338816720,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1262959340,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3353,11 +3613,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 315074876,
 =======
         "HashCode": -22127507,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -597643241,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3423,11 +3687,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -419299692,
 =======
         "HashCode": -367152154,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -268696026,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3492,11 +3760,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1098927671,
 =======
         "HashCode": 483916695,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -667890629,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3562,11 +3834,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -238954290,
 =======
         "HashCode": 442064330,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 841240802,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3616,11 +3892,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1259879396,
 =======
         "HashCode": -1840624564,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1495762275,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3671,11 +3951,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1475415380,
 =======
         "HashCode": -1195625913,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1407085136,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3712,11 +3996,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1377050338,
 =======
         "HashCode": -717656100,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1055617685,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3754,11 +4042,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1183424690,
 =======
         "HashCode": -327597866,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 62182740,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3795,11 +4087,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -106628564,
 =======
         "HashCode": 989375638,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 962596949,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3837,11 +4133,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1094989378,
 =======
         "HashCode": 358952919,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1711756164,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3898,11 +4198,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 133995940,
 =======
         "HashCode": 1333708104,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -581523437,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3960,11 +4264,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -2001832157,
 =======
         "HashCode": -698968022,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -877290397,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3983,11 +4291,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1433042621,
 =======
         "HashCode": -1405443618,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1482209403,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4007,11 +4319,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 2144701301,
 =======
         "HashCode": 424101106,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1020610469,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4040,11 +4356,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 660325540,
 =======
         "HashCode": -330177972,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1073415905,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4074,11 +4394,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -849811405,
 =======
         "HashCode": -998675666,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 976134496,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4097,11 +4421,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1398848144,
 =======
         "HashCode": 601596110,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1545567211,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4121,11 +4449,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 559353539,
 =======
         "HashCode": 779156369,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1890813376,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4142,11 +4474,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1797390849,
 =======
         "HashCode": 1050033502,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -729256917,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4164,11 +4500,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1619545640,
 =======
         "HashCode": -147061160,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1642013831,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4197,11 +4537,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1758158861,
 =======
         "HashCode": -23916253,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -723586705,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4231,11 +4575,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 2116989668,
 =======
         "HashCode": -435815045,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -484480900,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4254,11 +4602,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 166461890,
 =======
         "HashCode": 2024054852,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1122595561,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4278,11 +4630,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -510235288,
 =======
         "HashCode": -774886392,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1868530031,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4340,11 +4696,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1312164257,
 =======
         "HashCode": 4716167,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 2085722326,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4403,11 +4763,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1799722640,
 =======
         "HashCode": -450849833,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1767446393,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4426,11 +4790,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 24024076,
 =======
         "HashCode": 660616743,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -734983178,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4450,11 +4818,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 901846366,
 =======
         "HashCode": 1455149148,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -576840674,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4485,11 +4857,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -2062195889,
 =======
         "HashCode": 1302739676,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -794408879,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4521,11 +4897,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 11617338,
 =======
         "HashCode": -1422257391,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -607010166,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4637,11 +5017,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1471966327,
 =======
         "HashCode": 1041225233,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 161846114,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4754,11 +5138,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1281523839,
 =======
         "HashCode": -1926624489,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1025853876,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4789,11 +5177,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 2144920871,
 =======
         "HashCode": -823407374,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -894318510,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4825,11 +5217,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -727740450,
 =======
         "HashCode": -1878951018,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1578142526,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4860,11 +5256,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -814258192,
 =======
         "HashCode": 1442485182,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1301188246,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4896,11 +5296,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1420508677,
 =======
         "HashCode": 1559283065,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 690807693,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4931,11 +5335,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -834749579,
 =======
         "HashCode": 1805793555,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 265431897,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4967,11 +5375,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -833242693,
 =======
         "HashCode": -1956196640,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -592085994,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5052,11 +5464,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 208824200,
 =======
         "HashCode": 95215722,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1594443142,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onblur",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5137,11 +5553,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 2068684471,
 =======
         "HashCode": -611394791,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -55653525,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5222,11 +5642,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1867592049,
 =======
         "HashCode": 212954395,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 521815816,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5307,11 +5731,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -44470444,
 =======
         "HashCode": -1046194529,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1469289877,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5392,11 +5820,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 370637657,
 =======
         "HashCode": -1467383876,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -579488889,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5477,11 +5909,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -242696674,
 =======
         "HashCode": -1751960013,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 502389506,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5562,11 +5998,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1578725467,
 =======
         "HashCode": -26057985,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -961974588,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5647,11 +6087,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1661351620,
 =======
         "HashCode": -1217294162,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 94091705,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5732,11 +6176,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -44689848,
 =======
         "HashCode": 1253078891,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1941902419,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5817,11 +6265,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1210435257,
 =======
         "HashCode": -1543099192,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 458431423,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5902,11 +6354,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 751889721,
 =======
         "HashCode": -739258319,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1653062494,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5987,11 +6443,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1907586178,
 =======
         "HashCode": -2080904979,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 532774701,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6072,11 +6532,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 694640053,
 =======
         "HashCode": 1501322718,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -822526622,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6157,11 +6621,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1659821892,
 =======
         "HashCode": -9207672,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -399755890,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6242,11 +6710,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1895732198,
 =======
         "HashCode": 1354798056,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 529439995,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6327,11 +6799,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 2028574737,
 =======
         "HashCode": -1526704956,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1964193977,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6412,11 +6888,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1690762177,
 =======
         "HashCode": 432143752,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1457068715,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6497,11 +6977,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1090309604,
 =======
         "HashCode": -1607170430,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -2080282241,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6582,11 +7066,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -208211686,
 =======
         "HashCode": 374718422,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -3190923,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6667,11 +7155,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1096482797,
 =======
         "HashCode": -1618534769,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1343801572,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6752,11 +7244,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -912320767,
 =======
         "HashCode": -1498961431,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1214558799,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6837,11 +7333,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -237729842,
 =======
         "HashCode": 818154937,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -92352681,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6922,11 +7422,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 641978629,
 =======
         "HashCode": -1346049323,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 188716335,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7007,11 +7511,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1436927110,
 =======
         "HashCode": 1110608317,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1774570025,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7092,11 +7600,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1643490143,
 =======
         "HashCode": 1084778216,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1498126660,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "oninput",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7177,11 +7689,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -634422503,
 =======
         "HashCode": 1314296034,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1083092117,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7262,11 +7778,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1757542382,
 =======
         "HashCode": 1662267162,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 629546647,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onreset",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7347,11 +7867,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1517043257,
 =======
         "HashCode": -241271890,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -329973748,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onselect",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7432,11 +7956,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1392429078,
 =======
         "HashCode": -900331639,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -2137177320,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7517,11 +8045,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -709236680,
 =======
         "HashCode": -598132207,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1086376966,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7602,11 +8134,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1334381356,
 =======
         "HashCode": 1790648911,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1059645927,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7687,11 +8223,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -563984487,
 =======
         "HashCode": -2095590476,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -428906086,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7772,11 +8312,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 429881674,
 =======
         "HashCode": 1233176589,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1389162204,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7857,11 +8401,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1839709724,
 =======
         "HashCode": -898086791,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -988154588,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7942,11 +8490,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 671371355,
 =======
         "HashCode": 749521232,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1255493295,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8027,11 +8579,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1398674225,
 =======
         "HashCode": -410857569,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -2107214252,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "oncut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8112,11 +8668,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1729763594,
 =======
         "HashCode": 293417282,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 928316629,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8197,11 +8757,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1669806347,
 =======
         "HashCode": 701375912,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 423476232,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8282,11 +8846,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -59411268,
 =======
         "HashCode": 1128994863,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1787022031,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8367,11 +8935,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 191664617,
 =======
         "HashCode": 2065402750,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -544785407,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8452,11 +9024,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1543508871,
 =======
         "HashCode": 1233270055,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 456679071,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8537,11 +9113,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 605359901,
 =======
         "HashCode": -9074372,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1059496738,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8622,11 +9202,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -542035151,
 =======
         "HashCode": 214501395,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -11721550,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8707,11 +9291,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 782902880,
 =======
         "HashCode": -1532335109,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1908582998,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8792,11 +9380,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1549471539,
 =======
         "HashCode": 1175261106,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -2051777290,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8877,11 +9469,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1306677957,
 =======
         "HashCode": 1466747509,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1300183360,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8962,11 +9558,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1090217100,
 =======
         "HashCode": -1136056022,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1472443496,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9047,11 +9647,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1956872912,
 =======
         "HashCode": -813065420,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1111314192,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9132,11 +9736,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1388097607,
 =======
         "HashCode": 1916972956,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -998176684,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9217,11 +9825,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 666236632,
 =======
         "HashCode": -915584987,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1810740548,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9302,11 +9914,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1070434259,
 =======
         "HashCode": 523761420,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1043754814,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9387,11 +10003,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1142188812,
 =======
         "HashCode": -1320669435,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -919059025,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9472,11 +10092,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1601832522,
 =======
         "HashCode": 2142356151,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1742462751,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9557,11 +10181,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -758403125,
 =======
         "HashCode": -629210257,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -339749735,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9642,11 +10270,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1483909558,
 =======
         "HashCode": -1650832636,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 994238807,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9727,11 +10359,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1141129863,
 =======
         "HashCode": 409350686,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -631932,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9812,11 +10448,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -882741713,
 =======
         "HashCode": -1409349621,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 903200732,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9897,11 +10537,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 141431161,
 =======
         "HashCode": -1685872081,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -2076343285,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9982,11 +10626,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1596597749,
 =======
         "HashCode": -722410847,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1009608984,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpause",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10067,11 +10715,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1974807698,
 =======
         "HashCode": -2061420282,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1363461004,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10152,11 +10804,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -859612801,
 =======
         "HashCode": 1919439811,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1264454518,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10237,11 +10893,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1116437135,
 =======
         "HashCode": 1494520868,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -63818386,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10322,11 +10982,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -2067327835,
 =======
         "HashCode": 878771452,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1114235708,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10407,11 +11071,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1421826454,
 =======
         "HashCode": 946086409,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 392589069,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10492,11 +11160,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1632927617,
 =======
         "HashCode": 329888225,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 777243686,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10577,11 +11249,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -277118779,
 =======
         "HashCode": -770352611,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 756273015,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onstop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10662,11 +11338,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1761836740,
 =======
         "HashCode": -1711094145,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1711303652,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10747,11 +11427,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 766145524,
 =======
         "HashCode": -2142025420,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1792587499,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10832,11 +11516,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -481379045,
 =======
         "HashCode": 1074112147,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -621651771,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10917,11 +11605,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 68471894,
 =======
         "HashCode": 313577327,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 2015448354,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11002,11 +11694,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1136184705,
 =======
         "HashCode": 737386122,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -825586036,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11087,11 +11783,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -99193327,
 =======
         "HashCode": 897111728,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1353864182,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11172,11 +11872,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -759361315,
 =======
         "HashCode": -561260634,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1457712392,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onabort",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11257,11 +11961,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -65992552,
 =======
         "HashCode": 21108880,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -762328735,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onload",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11342,11 +12050,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 400016072,
 =======
         "HashCode": -1918277515,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1408071820,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11427,11 +12139,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -81246592,
 =======
         "HashCode": -755490342,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1733814595,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11512,11 +12228,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -2005841727,
 =======
         "HashCode": -235905086,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1152423781,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11597,11 +12317,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1204028088,
 =======
         "HashCode": -647221083,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1474211372,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11682,11 +12406,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -273894591,
 =======
         "HashCode": -1933392172,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -227899600,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11767,11 +12495,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -103634659,
 =======
         "HashCode": -589531299,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 689440030,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11852,11 +12584,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 59492841,
 =======
         "HashCode": 591996426,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1062538445,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11937,11 +12673,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1287466605,
 =======
         "HashCode": -504247743,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -712454656,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onended",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12022,11 +12762,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 67036057,
 =======
         "HashCode": -2004034887,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1522238421,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12107,11 +12851,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1535338609,
 =======
         "HashCode": 1772902217,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -234376307,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12192,11 +12940,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1170286297,
 =======
         "HashCode": 294309014,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1402331082,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12277,11 +13029,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1503989340,
 =======
         "HashCode": -2085448468,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1186021809,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12362,11 +13118,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1323495659,
 =======
         "HashCode": -1684254506,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -200223447,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12447,11 +13207,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -411264691,
 =======
         "HashCode": 1959684969,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -983425365,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12532,11 +13296,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -327607917,
 =======
         "HashCode": -144713588,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 745748866,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12617,11 +13385,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -687093524,
 =======
         "HashCode": -1675990266,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1900308632,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12702,11 +13474,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1377417048,
 =======
         "HashCode": -450425288,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1083464675,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12787,11 +13563,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1497069061,
 =======
         "HashCode": -363659164,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1144924480,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Splat",
         "Name": "Attributes",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12830,11 +13610,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1402405735,
 =======
         "HashCode": -1497422421,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -201411490,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
@@ -13149,11 +13933,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1278223647,
 =======
         "HashCode": -336676023,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1016677349,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13350,11 +14138,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1045294592,
 =======
         "HashCode": 1830574189,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1352364730,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13481,11 +14273,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -988112504,
 =======
         "HashCode": 761499819,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 961846480,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13540,11 +14336,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -805782489,
 =======
         "HashCode": 1870236449,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1889172381,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13676,11 +14476,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1240046863,
 =======
         "HashCode": -1070165176,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 192622839,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13726,11 +14530,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1124673193,
 =======
         "HashCode": 772299775,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -778834885,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14147,11 +14955,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -177296118,
 =======
         "HashCode": 1378680505,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -621542516,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14253,11 +15065,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1191623982,
 =======
         "HashCode": 1455505254,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -790683508,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14303,11 +15119,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1443609660,
 =======
         "HashCode": 1446086649,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1192133146,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14377,11 +15197,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1465087567,
 =======
         "HashCode": 2074351289,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1706978700,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14414,11 +15238,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 973563239,
 =======
         "HashCode": 1532547183,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -380356233,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14614,11 +15442,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1212673727,
 =======
         "HashCode": 649944165,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 224197746,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14646,11 +15478,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 147887162,
 =======
         "HashCode": 2135855384,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 284889279,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14731,11 +15567,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 979926942,
 =======
         "HashCode": 1305178944,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -505787091,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PersistComponentStateTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14764,11 +15604,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1574111424,
 =======
         "HashCode": -1626270062,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1950913607,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14921,11 +15765,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 293596042,
 =======
         "HashCode": -165333935,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -764515725,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14984,11 +15832,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -2025721313,
 =======
         "HashCode": -421798261,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1858689682,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15030,11 +15882,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1441767253,
 =======
         "HashCode": 823006260,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -2090786640,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15067,11 +15923,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -158513089,
 =======
         "HashCode": -557829039,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -531066300,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15105,11 +15965,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 823485581,
 =======
         "HashCode": 1900036808,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 818339406,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15178,11 +16042,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1959880291,
 =======
         "HashCode": -2014754538,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 781414023,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15260,11 +16128,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1854615507,
 =======
         "HashCode": -1964181029,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1941972338,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15342,11 +16214,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1939036681,
 =======
         "HashCode": -301856445,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1716950345,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15430,11 +16306,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1281271107,
 =======
         "HashCode": -413946964,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 677421806,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15518,11 +16398,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1657274036,
 =======
         "HashCode": 1314641656,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1916912488,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15606,11 +16490,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1493839678,
 =======
         "HashCode": -1781390083,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1058686445,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15694,11 +16582,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 406871161,
 =======
         "HashCode": -1469194533,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -279598089,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15782,11 +16674,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -67619779,
 =======
         "HashCode": -211019882,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 10394079,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15870,11 +16766,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 2102432637,
 =======
         "HashCode": 1008854346,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 2096657086,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15958,11 +16858,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -892676982,
 =======
         "HashCode": 1435055937,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 2112461021,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16046,11 +16950,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 323379047,
 =======
         "HashCode": 1342217634,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 455351996,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16134,11 +17042,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1655372653,
 =======
         "HashCode": 1722784471,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1938686713,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16222,11 +17134,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 824403806,
 =======
         "HashCode": 944291827,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 820178244,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16310,11 +17226,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1911491175,
 =======
         "HashCode": -1434060629,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 2076848842,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16398,11 +17318,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 710327262,
 =======
         "HashCode": 493439187,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 2016427544,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16480,11 +17404,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -926338325,
 =======
         "HashCode": 1747990882,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1271965458,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16562,11 +17490,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1333968505,
 =======
         "HashCode": 75856506,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1657098284,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16607,11 +17539,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -767094782,
 =======
         "HashCode": -859707474,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 652187187,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16653,11 +17589,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1053868869,
 =======
         "HashCode": 52657606,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -214669855,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16698,11 +17638,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 349411281,
 =======
         "HashCode": -1611032293,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1811066281,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16744,11 +17688,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1350816669,
 =======
         "HashCode": 2053746528,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -132369791,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16789,11 +17737,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1638727221,
 =======
         "HashCode": 2099037637,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1646704772,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16835,11 +17787,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 2099438231,
 =======
         "HashCode": -2019780682,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 146636995,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16880,11 +17836,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1013954684,
 =======
         "HashCode": -764425409,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1260629178,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16926,11 +17886,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1790799817,
 =======
         "HashCode": -879338890,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 142779826,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16971,11 +17935,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1062621978,
 =======
         "HashCode": -1891244884,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1721817553,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17017,11 +17985,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -168569434,
 =======
         "HashCode": 1218664759,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -91792339,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17062,11 +18034,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1979265329,
 =======
         "HashCode": 1256699362,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -960091095,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17108,11 +18084,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -1213406681,
 =======
         "HashCode": -95928582,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1767986050,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17153,11 +18133,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 1369020039,
 =======
         "HashCode": -346837489,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -2097638948,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17199,11 +18183,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": 674383047,
 =======
         "HashCode": -1250594197,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": -1188338359,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Ref",
         "Name": "Ref",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17242,11 +18230,15 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD:obj/Debug/net6.0/project.razor.json
         "HashCode": -802992499,
 =======
         "HashCode": -719552927,
 >>>>>>> baf2cb08f3154c6299433987dddc25643dc88b25:BookingApi/obj/Debug/net6.0/project.razor.json
+=======
+        "HashCode": 1003619527,
+>>>>>>> aae76dbdb7b3caa7e9fda181e9a44a74276b20e7
         "Kind": "Components.Key",
         "Name": "Key",
         "AssemblyName": "Microsoft.AspNetCore.Components",

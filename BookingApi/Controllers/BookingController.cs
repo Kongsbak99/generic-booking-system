@@ -14,29 +14,29 @@ namespace BookingApi.Controllers
 {
     [Route("api/[controller]")] //Base URL for controller - '[controller]' should be the name of controller (i.e. todoitems)
     [ApiController]
-    public class BookableItemController : ControllerBase
+    public class BookingController : ControllerBase
     {
         private readonly DatabaseContext _context;
 
-        public BookableItemController(DatabaseContext context)
+        public BookingController(DatabaseContext context)
         {
             _context = context;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<BookableItem>>> GetBookableItem() {
-            if (_context.BookableItem == null) {
+        public async Task<ActionResult<IEnumerable<Booking>>> GetBooking() {
+            if (_context.Booking == null) {
                 return NotFound();
             }
-            return await _context.BookableItem.ToListAsync();
+            return await _context.Booking.ToListAsync();
         }
 
 
         [HttpPost]
-        public async Task<ActionResult<BookableItem>> PostBookableItem(BookableItem bookableItem){
-            _context.BookableItem.Add(bookableItem);
+        public async Task<ActionResult<Booking>> PostBookableItem(Booking booking){
+            _context.Booking.Add(booking);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetBookableItem), new {id = bookableItem.Id}, bookableItem);
+            return CreatedAtAction(nameof(GetBooking), new {id = booking.Id}, booking);
         }
 
         
