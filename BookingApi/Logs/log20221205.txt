@@ -1,0 +1,907 @@
+[2022-12-05 09:14:59 INF]  
+
+[2022-12-05 09:14:59 INF]  Starting api
+[2022-12-05 09:14:59 INF]  User profile is available. Using 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-12-05 09:14:59 INF]  Creating key {95b4275c-2f01-4860-b50e-a5e631680c4a} with creation date 2022-12-05 08:14:59Z, activation date 2022-12-05 08:14:59Z, and expiration date 2023-03-05 08:14:59Z.
+[2022-12-05 09:14:59 INF]  Writing data to file 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys\key-95b4275c-2f01-4860-b50e-a5e631680c4a.xml'.
+[2022-12-05 09:15:00 INF]  Now listening on: https://localhost:7206
+[2022-12-05 09:15:00 INF]  Now listening on: http://localhost:5045
+[2022-12-05 09:15:00 INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 09:15:00 INF]  Hosting environment: Development
+[2022-12-05 09:15:00 INF]  Content root path: C:\Users\victo_k58v34i\OneDrive\ITO\5. semester\C#-home\generic-booking-system\BookingApi\
+[2022-12-05 09:15:07 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/Auth/login application/json 57
+[2022-12-05 09:15:07 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:15:07 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:15:07 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:15:07 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:15:07 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:15:07 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:15:07 INF]  Executing endpoint 'BookingApi.Controllers.AuthController.Login (BookingApi)'
+[2022-12-05 09:15:07 INF]  Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BookingApi.Models.DTOs.LoginUserDTO) on controller BookingApi.Controllers.AuthController (BookingApi).
+[2022-12-05 09:15:15 INF]  Init login attempt: user@example.com
+[2022-12-05 09:15:15 WRN]  Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2022-12-05 09:15:15 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:15:16 INF]  Executed DbCommand (45ms) [Parameters=[@__normalizedUserName_0='USER@EXAMPLE.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Birthdate`, `a`.`City`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`Firstname`, `a`.`Lastname`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`SecurityStamp`, `a`.`Street`, `a`.`TeamId`, `a`.`Timestamp`, `a`.`UserName`, `a`.`Zip`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1
+[2022-12-05 09:15:16 INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2022-12-05 09:15:16 INF]  Executed action BookingApi.Controllers.AuthController.Login (BookingApi) in 8937.5566ms
+[2022-12-05 09:15:16 INF]  Executed endpoint 'BookingApi.Controllers.AuthController.Login (BookingApi)'
+[2022-12-05 09:15:16 INF]  Generating expiration headers.
+[2022-12-05 09:15:16 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:17:16 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:15:16 INF]  Not generating Validation headers as the response status code does not indicate success.
+[2022-12-05 09:15:16 INF]  Generating Vary header.
+[2022-12-05 09:15:16 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:15:16 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/Auth/login application/json 57 - 401 162 application/problem+json;+charset=utf-8 9176.6817ms
+[2022-12-05 09:15:21 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/Auth/login application/json 48
+[2022-12-05 09:15:21 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:15:21 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:15:21 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:15:21 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:15:21 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:15:21 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:15:21 INF]  Executing endpoint 'BookingApi.Controllers.AuthController.Login (BookingApi)'
+[2022-12-05 09:15:21 INF]  Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BookingApi.Models.DTOs.LoginUserDTO) on controller BookingApi.Controllers.AuthController (BookingApi).
+[2022-12-05 09:15:21 INF]  Init login attempt: ADMIN
+[2022-12-05 09:15:21 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:15:21 INF]  Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Birthdate`, `a`.`City`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`Firstname`, `a`.`Lastname`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`SecurityStamp`, `a`.`Street`, `a`.`TeamId`, `a`.`Timestamp`, `a`.`UserName`, `a`.`Zip`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1
+[2022-12-05 09:15:21 INF]  Executed DbCommand (13ms) [Parameters=[@__userId_0='-1' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a0`.`Name`
+FROM `AspNetUserRoles` AS `a`
+INNER JOIN `AspNetRoles` AS `a0` ON `a`.`RoleId` = `a0`.`Id`
+WHERE `a`.`UserId` = @__userId_0
+[2022-12-05 09:15:22 INF]  Executing AcceptedResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-12-05 09:15:22 INF]  Executed action BookingApi.Controllers.AuthController.Login (BookingApi) in 374.4418ms
+[2022-12-05 09:15:22 INF]  Executed endpoint 'BookingApi.Controllers.AuthController.Login (BookingApi)'
+[2022-12-05 09:15:22 INF]  Generating expiration headers.
+[2022-12-05 09:15:22 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:17:22 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:15:22 INF]  Generating Validation headers.
+[2022-12-05 09:15:22 INF]  Validation headers generated. ETag: Strong, "711E5CDAB2534431058E4BAF17FDB819". Last-Modified: Mon, 05 Dec 2022 08:15:22 GMT
+[2022-12-05 09:15:22 INF]  Generating Vary header.
+[2022-12-05 09:15:22 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:15:22 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/Auth/login application/json 48 - 202 344 application/json;+charset=utf-8 387.2576ms
+[2022-12-05 09:15:39 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/BookableItem application/json 121
+[2022-12-05 09:15:39 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:15:39 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:15:39 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:15:39 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:15:39 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:15:39 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:15:39 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.AddBookableItem (BookingApi)'
+[2022-12-05 09:15:39 INF]  Route matched with {action = "AddBookableItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddBookableItem(BookingApi.Models.DTOs.AddBookableItemDTO, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:15:39 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:15:40 INF]  Executed DbCommand (20ms) [Parameters=[@p0='26bbd629-f840-47a6-ba1d-a36db74ddd9f' (Nullable = false) (Size = 255), @p1='test desc' (Size = 4000), @p2='f90d2da6-0ffb-47b0-a39f-64c7a6005b8d' (Size = 255), @p3='test name' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `BookableItems` (`Id`, `Description`, `LocationId`, `Name`)
+VALUES (@p0, @p1, @p2, @p3);
+[2022-12-05 09:15:40 INF]  Executing OkObjectResult, writing value of type 'BookingApi.Database.Entities.BookableItem'.
+[2022-12-05 09:15:40 INF]  Executed action BookingApi.Controllers.BookableItemController.AddBookableItem (BookingApi) in 258.0786ms
+[2022-12-05 09:15:40 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.AddBookableItem (BookingApi)'
+[2022-12-05 09:15:40 INF]  Generating expiration headers.
+[2022-12-05 09:15:40 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:17:40 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:15:40 INF]  Generating Validation headers.
+[2022-12-05 09:15:40 INF]  Validation headers generated. ETag: Strong, "9FB5AA7CC494EDE13FC8A607C7D0122E". Last-Modified: Mon, 05 Dec 2022 08:15:40 GMT
+[2022-12-05 09:15:40 INF]  Generating Vary header.
+[2022-12-05 09:15:40 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:15:40 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/BookableItem application/json 121 - 200 174 application/json;+charset=utf-8 366.5368ms
+[2022-12-05 09:15:53 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/BookableItem/Book application/json 235
+[2022-12-05 09:15:53 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:15:53 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:15:53 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:15:53 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:15:53 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:15:53 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:15:53 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.BookItem (BookingApi)'
+[2022-12-05 09:15:53 INF]  Route matched with {action = "BookItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookItem(BookingApi.Models.DTOs.BookingDTO, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:15:53 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:15:53 INF]  Executed DbCommand (11ms) [Parameters=[@p0='ae520510-53ae-41ca-b1e2-69809045c770' (Nullable = false) (Size = 255), @p1='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Size = 255), @p2='test@test.com' (Size = 4000), @p3='2022-09-22T16:00:00.0000000' (DbType = DateTime), @p4='another Test person' (Size = 4000), @p5='12345678' (Size = 4000), @p6='2022-09-22T18:00:00.0000000' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Bookings` (`Id`, `BookableItemId`, `Email`, `From`, `Name`, `PhoneNumber`, `To`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2022-12-05 09:15:53 INF]  Executed DbCommand (1ms) [Parameters=[@__bookingId_0='ae520510-53ae-41ca-b1e2-69809045c770' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `b`.`Id`, `b`.`BookableItemId`, `b`.`Email`, `b`.`From`, `b`.`Name`, `b`.`PhoneNumber`, `b`.`To`
+FROM `Bookings` AS `b`
+WHERE `b`.`Id` = @__bookingId_0
+LIMIT 2
+[2022-12-05 09:15:53 INF]  Executed DbCommand (5ms) [Parameters=[@__BookableItemId_0='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`LocationId`, `t`.`Name`, `b0`.`Id`, `b0`.`BookableItemId`, `b0`.`Email`, `b0`.`From`, `b0`.`Name`, `b0`.`PhoneNumber`, `b0`.`To`
+FROM (
+    SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`
+    FROM `BookableItems` AS `b`
+    WHERE `b`.`Id` = @__BookableItemId_0
+    LIMIT 2
+) AS `t`
+LEFT JOIN `Bookings` AS `b0` ON `t`.`Id` = `b0`.`BookableItemId`
+ORDER BY `t`.`Id`
+[2022-12-05 09:15:53 INF]  Executing StatusCodeResult, setting HTTP status code 204
+[2022-12-05 09:15:53 INF]  Executed action BookingApi.Controllers.BookableItemController.BookItem (BookingApi) in 181.3365ms
+[2022-12-05 09:15:53 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.BookItem (BookingApi)'
+[2022-12-05 09:15:53 INF]  Generating expiration headers.
+[2022-12-05 09:15:53 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:17:53 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:15:53 INF]  Generating Validation headers.
+[2022-12-05 09:15:53 INF]  Validation headers generated. ETag: Strong, "20FF3900B96270B9259FB619A09076B8". Last-Modified: Mon, 05 Dec 2022 08:15:53 GMT
+[2022-12-05 09:15:53 INF]  Generating Vary header.
+[2022-12-05 09:15:53 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:15:53 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/BookableItem/Book application/json 235 - 204 - - 185.2567ms
+[2022-12-05 09:16:30 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/BookableItem/Book application/json 234
+[2022-12-05 09:16:30 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:16:30 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:16:30 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:16:30 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:16:30 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:16:30 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:16:30 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.BookItem (BookingApi)'
+[2022-12-05 09:16:30 INF]  Route matched with {action = "BookItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookItem(BookingApi.Models.DTOs.BookingDTO, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:16:30 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:16:30 ERR]  Failed executing DbCommand (10ms) [Parameters=[@p0='e09c85ca-3418-4d68-8329-e9f0f47bfdb6' (Nullable = false) (Size = 255), @p1='6bbd629-f840-47a6-ba1d-a36db74ddd9f' (Size = 255), @p2='test@test.com' (Size = 4000), @p3='2022-09-22T16:00:00.0000000' (DbType = DateTime), @p4='another Test person' (Size = 4000), @p5='12345678' (Size = 4000), @p6='2022-09-22T18:00:00.0000000' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Bookings` (`Id`, `BookableItemId`, `Email`, `From`, `Name`, `PhoneNumber`, `To`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2022-12-05 09:16:30 ERR]  An exception occurred in the database while saving changes for context type 'BookingApi.Database.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`bookingdatabase`.`bookings`, CONSTRAINT `FK_Bookings_BookableItems_BookableItemId` FOREIGN KEY (`BookableItemId`) REFERENCES `bookableitems` (`Id`))
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 954
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 44
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 127
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 456
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 330
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 323
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`bookingdatabase`.`bookings`, CONSTRAINT `FK_Bookings_BookableItems_BookableItemId` FOREIGN KEY (`BookableItemId`) REFERENCES `bookableitems` (`Id`))
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 954
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 44
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 127
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 456
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 330
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 323
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2022-12-05 09:16:59 INF]  
+
+[2022-12-05 09:16:59 INF]  Starting api
+[2022-12-05 09:16:59 INF]  User profile is available. Using 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-12-05 09:17:00 INF]  Now listening on: https://localhost:7206
+[2022-12-05 09:17:00 INF]  Now listening on: http://localhost:5045
+[2022-12-05 09:17:00 INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 09:17:00 INF]  Hosting environment: Development
+[2022-12-05 09:17:00 INF]  Content root path: C:\Users\victo_k58v34i\OneDrive\ITO\5. semester\C#-home\generic-booking-system\BookingApi\
+[2022-12-05 09:17:05 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/Location application/json 64
+[2022-12-05 09:17:05 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:17:05 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:17:05 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:17:05 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:17:05 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:17:05 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:17:05 INF]  Executing endpoint 'BookingApi.Controllers.LocationController.AddLocation (BookingApi)'
+[2022-12-05 09:17:05 INF]  Route matched with {action = "AddLocation", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddLocation(BookingApi.Models.DTOs.LocationDTO, System.Threading.CancellationToken) on controller BookingApi.Controllers.LocationController (BookingApi).
+[2022-12-05 09:17:05 WRN]  Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2022-12-05 09:17:05 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:17:06 INF]  Executed DbCommand (25ms) [Parameters=[@p0='89bc61c3-7ec2-4f2e-b547-c99ccf062727' (Nullable = false) (Size = 255), @p1='Test City' (Size = 4000), @p2='Test Street' (Size = 4000), @p3='Test Zip' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Location` (`Id`, `City`, `Street`, `Zip`)
+VALUES (@p0, @p1, @p2, @p3);
+[2022-12-05 09:17:06 INF]  Executing OkObjectResult, writing value of type 'BookingApi.Models.DTOs.LocationDTO'.
+[2022-12-05 09:17:06 INF]  Executed action BookingApi.Controllers.LocationController.AddLocation (BookingApi) in 698.6731ms
+[2022-12-05 09:17:06 INF]  Executed endpoint 'BookingApi.Controllers.LocationController.AddLocation (BookingApi)'
+[2022-12-05 09:17:06 INF]  Generating expiration headers.
+[2022-12-05 09:17:06 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:19:06 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:17:06 INF]  Generating Validation headers.
+[2022-12-05 09:17:06 INF]  Validation headers generated. ETag: Strong, "C769CC2200328E3F396146A569A66D19". Last-Modified: Mon, 05 Dec 2022 08:17:06 GMT
+[2022-12-05 09:17:06 INF]  Generating Vary header.
+[2022-12-05 09:17:06 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:17:06 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/Location application/json 64 - 200 104 application/json;+charset=utf-8 1126.1618ms
+[2022-12-05 09:17:23 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/BookableItem application/json 121
+[2022-12-05 09:17:23 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:17:23 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:17:23 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:17:23 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:17:23 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:17:23 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:17:23 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.AddBookableItem (BookingApi)'
+[2022-12-05 09:17:23 INF]  Route matched with {action = "AddBookableItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddBookableItem(BookingApi.Models.DTOs.AddBookableItemDTO, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:17:23 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:17:23 INF]  Executed DbCommand (7ms) [Parameters=[@p0='6726f3f0-7cba-4920-a50f-744bac237700' (Nullable = false) (Size = 255), @p1='test desc' (Size = 4000), @p2='89bc61c3-7ec2-4f2e-b547-c99ccf062727' (Size = 255), @p3='test name' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `BookableItems` (`Id`, `Description`, `LocationId`, `Name`)
+VALUES (@p0, @p1, @p2, @p3);
+[2022-12-05 09:17:23 INF]  Executing OkObjectResult, writing value of type 'BookingApi.Database.Entities.BookableItem'.
+[2022-12-05 09:17:23 INF]  Executed action BookingApi.Controllers.BookableItemController.AddBookableItem (BookingApi) in 105.5945ms
+[2022-12-05 09:17:23 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.AddBookableItem (BookingApi)'
+[2022-12-05 09:17:23 INF]  Generating expiration headers.
+[2022-12-05 09:17:23 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:19:23 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:17:23 INF]  Generating Validation headers.
+[2022-12-05 09:17:23 INF]  Validation headers generated. ETag: Strong, "3C734891C0EEA22B459AB784FC3681A8". Last-Modified: Mon, 05 Dec 2022 08:17:23 GMT
+[2022-12-05 09:17:23 INF]  Generating Vary header.
+[2022-12-05 09:17:23 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:17:23 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/BookableItem application/json 121 - 200 174 application/json;+charset=utf-8 112.5956ms
+[2022-12-05 09:17:36 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/BookableItem/Book application/json 235
+[2022-12-05 09:17:36 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:17:36 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:17:36 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:17:36 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:17:36 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:17:36 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:17:36 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.BookItem (BookingApi)'
+[2022-12-05 09:17:36 INF]  Route matched with {action = "BookItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookItem(BookingApi.Models.DTOs.BookingDTO, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:17:36 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:17:36 INF]  Executed DbCommand (1ms) [Parameters=[@p0='b7c01649-4b3c-4ae8-910b-b6dd2b5c68b3' (Nullable = false) (Size = 255), @p1='6726f3f0-7cba-4920-a50f-744bac237700' (Size = 255), @p2='test@test.com' (Size = 4000), @p3='2022-09-22T16:00:00.0000000' (DbType = DateTime), @p4='another Test person' (Size = 4000), @p5='12345678' (Size = 4000), @p6='2022-09-22T18:00:00.0000000' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Bookings` (`Id`, `BookableItemId`, `Email`, `From`, `Name`, `PhoneNumber`, `To`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2022-12-05 09:17:36 INF]  Executed DbCommand (1ms) [Parameters=[@__bookingId_0='b7c01649-4b3c-4ae8-910b-b6dd2b5c68b3' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `b`.`Id`, `b`.`BookableItemId`, `b`.`Email`, `b`.`From`, `b`.`Name`, `b`.`PhoneNumber`, `b`.`To`
+FROM `Bookings` AS `b`
+WHERE `b`.`Id` = @__bookingId_0
+LIMIT 2
+[2022-12-05 09:17:36 INF]  Executed DbCommand (2ms) [Parameters=[@__BookableItemId_0='6726f3f0-7cba-4920-a50f-744bac237700' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`LocationId`, `t`.`Name`, `b0`.`Id`, `b0`.`BookableItemId`, `b0`.`Email`, `b0`.`From`, `b0`.`Name`, `b0`.`PhoneNumber`, `b0`.`To`
+FROM (
+    SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`
+    FROM `BookableItems` AS `b`
+    WHERE `b`.`Id` = @__BookableItemId_0
+    LIMIT 2
+) AS `t`
+LEFT JOIN `Bookings` AS `b0` ON `t`.`Id` = `b0`.`BookableItemId`
+ORDER BY `t`.`Id`
+[2022-12-05 09:17:36 INF]  Executing StatusCodeResult, setting HTTP status code 204
+[2022-12-05 09:17:36 INF]  Executed action BookingApi.Controllers.BookableItemController.BookItem (BookingApi) in 625.6724ms
+[2022-12-05 09:17:36 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.BookItem (BookingApi)'
+[2022-12-05 09:17:36 INF]  Generating expiration headers.
+[2022-12-05 09:17:36 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:19:36 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:17:36 INF]  Generating Validation headers.
+[2022-12-05 09:17:36 INF]  Validation headers generated. ETag: Strong, "20FF3900B96270B9259FB619A09076B8". Last-Modified: Mon, 05 Dec 2022 08:17:36 GMT
+[2022-12-05 09:17:36 INF]  Generating Vary header.
+[2022-12-05 09:17:36 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:17:36 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/BookableItem/Book application/json 235 - 204 - - 631.8104ms
+[2022-12-05 09:17:45 INF]  Request starting HTTP/1.1 GET https://localhost:7206/api/BookableItem - -
+[2022-12-05 09:17:45 INF]  No cached response available for this request.
+[2022-12-05 09:17:45 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:17:45 INF]  Not valid - no If-None-Match or If-Modified-Since headers.
+[2022-12-05 09:17:45 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:17:45 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:17:45 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:17:45 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:17:45 INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2022-12-05 09:17:45 INF]  AuthenticationScheme: Bearer was challenged.
+[2022-12-05 09:17:45 INF]  Generating expiration headers.
+[2022-12-05 09:17:45 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:19:45 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:17:45 INF]  Not generating Validation headers as the response status code does not indicate success.
+[2022-12-05 09:17:45 INF]  Generating Vary header.
+[2022-12-05 09:17:45 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:17:45 INF]  The response could not be cached for this request.
+[2022-12-05 09:17:45 INF]  Request finished HTTP/1.1 GET https://localhost:7206/api/BookableItem - - - 401 0 - 15.3669ms
+[2022-12-05 09:17:55 INF]  Request starting HTTP/1.1 GET https://localhost:7206/api/BookableItem - -
+[2022-12-05 09:17:55 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:17:55 INF]  Not valid - no If-None-Match or If-Modified-Since headers.
+[2022-12-05 09:17:55 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:17:55 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:17:55 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:17:55 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:17:55 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.GetBookableItems (BookingApi)'
+[2022-12-05 09:17:55 INF]  Route matched with {action = "GetBookableItems", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookableItems(System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:17:55 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:17:55 INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`, `l`.`Id`, `l`.`City`, `l`.`Street`, `l`.`Zip`
+FROM `BookableItems` AS `b`
+LEFT JOIN `Location` AS `l` ON `b`.`LocationId` = `l`.`Id`
+[2022-12-05 09:17:55 INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookingApi.Models.DTOs.BookableItemDTO, BookingApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-12-05 09:17:55 INF]  Executed action BookingApi.Controllers.BookableItemController.GetBookableItems (BookingApi) in 49.5818ms
+[2022-12-05 09:17:55 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.GetBookableItems (BookingApi)'
+[2022-12-05 09:17:55 INF]  Generating expiration headers.
+[2022-12-05 09:17:55 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:19:55 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:17:55 INF]  Generating Validation headers.
+[2022-12-05 09:17:55 INF]  Validation headers generated. ETag: Strong, "D10608164F4C4984382DE086BF28B4C7". Last-Modified: Mon, 05 Dec 2022 08:17:55 GMT
+[2022-12-05 09:17:55 INF]  Generating Vary header.
+[2022-12-05 09:17:55 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:17:55 INF]  Request finished HTTP/1.1 GET https://localhost:7206/api/BookableItem - - - 200 664 application/json;+charset=utf-8 53.9250ms
+[2022-12-05 09:18:17 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/BookableItem/Book application/json 235
+[2022-12-05 09:18:17 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:18:17 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:18:17 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:18:17 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:18:17 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:18:17 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:18:17 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.BookItem (BookingApi)'
+[2022-12-05 09:18:17 INF]  Route matched with {action = "BookItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookItem(BookingApi.Models.DTOs.BookingDTO, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:18:17 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:18:17 INF]  Executed DbCommand (4ms) [Parameters=[@p0='7727f729-0631-498c-bd63-31b40959bf7e' (Nullable = false) (Size = 255), @p1='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Size = 255), @p2='test@test.com' (Size = 4000), @p3='2022-09-22T16:00:00.0000000' (DbType = DateTime), @p4='another Test person' (Size = 4000), @p5='12345678' (Size = 4000), @p6='2022-09-22T18:00:00.0000000' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Bookings` (`Id`, `BookableItemId`, `Email`, `From`, `Name`, `PhoneNumber`, `To`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2022-12-05 09:18:17 INF]  Executed DbCommand (1ms) [Parameters=[@__bookingId_0='7727f729-0631-498c-bd63-31b40959bf7e' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `b`.`Id`, `b`.`BookableItemId`, `b`.`Email`, `b`.`From`, `b`.`Name`, `b`.`PhoneNumber`, `b`.`To`
+FROM `Bookings` AS `b`
+WHERE `b`.`Id` = @__bookingId_0
+LIMIT 2
+[2022-12-05 09:18:17 INF]  Executed DbCommand (1ms) [Parameters=[@__BookableItemId_0='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`LocationId`, `t`.`Name`, `b0`.`Id`, `b0`.`BookableItemId`, `b0`.`Email`, `b0`.`From`, `b0`.`Name`, `b0`.`PhoneNumber`, `b0`.`To`
+FROM (
+    SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`
+    FROM `BookableItems` AS `b`
+    WHERE `b`.`Id` = @__BookableItemId_0
+    LIMIT 2
+) AS `t`
+LEFT JOIN `Bookings` AS `b0` ON `t`.`Id` = `b0`.`BookableItemId`
+ORDER BY `t`.`Id`
+[2022-12-05 09:18:17 INF]  Executing StatusCodeResult, setting HTTP status code 204
+[2022-12-05 09:18:17 INF]  Executed action BookingApi.Controllers.BookableItemController.BookItem (BookingApi) in 32.2381ms
+[2022-12-05 09:18:17 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.BookItem (BookingApi)'
+[2022-12-05 09:18:17 INF]  Generating expiration headers.
+[2022-12-05 09:18:17 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:20:17 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:18:17 INF]  Generating Validation headers.
+[2022-12-05 09:18:17 INF]  Validation headers generated. ETag: Strong, "20FF3900B96270B9259FB619A09076B8". Last-Modified: Mon, 05 Dec 2022 08:18:17 GMT
+[2022-12-05 09:18:17 INF]  Generating Vary header.
+[2022-12-05 09:18:17 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:18:17 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/BookableItem/Book application/json 235 - 204 - - 33.6115ms
+[2022-12-05 09:21:35 INF]  Request starting HTTP/1.1 GET https://localhost:7206/api/BookableItem - -
+[2022-12-05 09:21:35 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:21:35 INF]  Not valid - no If-None-Match or If-Modified-Since headers.
+[2022-12-05 09:21:35 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:21:35 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:21:35 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:21:35 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:21:35 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.GetBookableItems (BookingApi)'
+[2022-12-05 09:21:35 INF]  Route matched with {action = "GetBookableItems", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookableItems(System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:21:35 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:21:35 INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`, `l`.`Id`, `l`.`City`, `l`.`Street`, `l`.`Zip`
+FROM `BookableItems` AS `b`
+LEFT JOIN `Location` AS `l` ON `b`.`LocationId` = `l`.`Id`
+[2022-12-05 09:21:35 INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookingApi.Models.DTOs.BookableItemDTO, BookingApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-12-05 09:21:35 INF]  Executed action BookingApi.Controllers.BookableItemController.GetBookableItems (BookingApi) in 13.139ms
+[2022-12-05 09:21:35 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.GetBookableItems (BookingApi)'
+[2022-12-05 09:21:35 INF]  Generating expiration headers.
+[2022-12-05 09:21:35 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:23:35 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:21:35 INF]  Generating Validation headers.
+[2022-12-05 09:21:35 INF]  Validation headers generated. ETag: Strong, "D10608164F4C4984382DE086BF28B4C7". Last-Modified: Mon, 05 Dec 2022 08:21:35 GMT
+[2022-12-05 09:21:35 INF]  Generating Vary header.
+[2022-12-05 09:21:35 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:21:35 INF]  Request finished HTTP/1.1 GET https://localhost:7206/api/BookableItem - - - 200 664 application/json;+charset=utf-8 15.0383ms
+[2022-12-05 09:23:52 INF]  
+
+[2022-12-05 09:23:52 INF]  Starting api
+[2022-12-05 09:23:52 INF]  User profile is available. Using 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-12-05 09:23:52 INF]  Now listening on: https://localhost:7206
+[2022-12-05 09:23:52 INF]  Now listening on: http://localhost:5045
+[2022-12-05 09:23:52 INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 09:23:52 INF]  Hosting environment: Development
+[2022-12-05 09:23:52 INF]  Content root path: C:\Users\victo_k58v34i\OneDrive\ITO\5. semester\C#-home\generic-booking-system\BookingApi\
+[2022-12-05 09:23:55 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/BookableItem/Book application/json 235
+[2022-12-05 09:23:55 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:23:55 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:23:55 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:23:55 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:23:55 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:23:55 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:23:55 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.BookItem (BookingApi)'
+[2022-12-05 09:23:55 INF]  Route matched with {action = "BookItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookItem(BookingApi.Models.DTOs.BookingDTO, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:24:19 WRN]  Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2022-12-05 09:24:19 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:24:34 INF]  Executed DbCommand (24ms) [Parameters=[@p0='6b18d22b-6448-4e08-8d73-12440f533de0' (Nullable = false) (Size = 255), @p1='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Size = 255), @p2='test@test.com' (Size = 4000), @p3='2022-09-22T16:00:00.0000000' (DbType = DateTime), @p4='another Test person' (Size = 4000), @p5='12345678' (Size = 4000), @p6='2022-09-22T18:00:00.0000000' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Bookings` (`Id`, `BookableItemId`, `Email`, `From`, `Name`, `PhoneNumber`, `To`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2022-12-05 09:24:44 INF]  Executed DbCommand (6ms) [Parameters=[@__bookingId_0='6b18d22b-6448-4e08-8d73-12440f533de0' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `b`.`Id`, `b`.`BookableItemId`, `b`.`Email`, `b`.`From`, `b`.`Name`, `b`.`PhoneNumber`, `b`.`To`
+FROM `Bookings` AS `b`
+WHERE `b`.`Id` = @__bookingId_0
+LIMIT 2
+[2022-12-05 09:24:45 INF]  Executed DbCommand (1ms) [Parameters=[@__BookableItemId_0='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`LocationId`, `t`.`Name`, `b0`.`Id`, `b0`.`BookableItemId`, `b0`.`Email`, `b0`.`From`, `b0`.`Name`, `b0`.`PhoneNumber`, `b0`.`To`
+FROM (
+    SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`
+    FROM `BookableItems` AS `b`
+    WHERE `b`.`Id` = @__BookableItemId_0
+    LIMIT 2
+) AS `t`
+LEFT JOIN `Bookings` AS `b0` ON `t`.`Id` = `b0`.`BookableItemId`
+ORDER BY `t`.`Id`
+[2022-12-05 09:25:00 INF]  Executing StatusCodeResult, setting HTTP status code 204
+[2022-12-05 09:25:00 INF]  Executed action BookingApi.Controllers.BookableItemController.BookItem (BookingApi) in 64556.448ms
+[2022-12-05 09:25:00 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.BookItem (BookingApi)'
+[2022-12-05 09:25:00 INF]  Generating expiration headers.
+[2022-12-05 09:25:00 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:27:00 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:25:00 INF]  Generating Validation headers.
+[2022-12-05 09:25:00 INF]  Validation headers generated. ETag: Strong, "20FF3900B96270B9259FB619A09076B8". Last-Modified: Mon, 05 Dec 2022 08:25:00 GMT
+[2022-12-05 09:25:00 INF]  Generating Vary header.
+[2022-12-05 09:25:00 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:25:00 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/BookableItem/Book application/json 235 - 204 - - 64820.9232ms
+[2022-12-05 09:25:52 INF]  Request starting HTTP/1.1 GET https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - -
+[2022-12-05 09:25:52 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:25:52 INF]  Not valid - no If-None-Match or If-Modified-Since headers.
+[2022-12-05 09:25:52 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:25:52 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:25:52 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:25:52 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:25:52 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.GetPractise (BookingApi)'
+[2022-12-05 09:25:52 INF]  Route matched with {action = "GetPractise", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPractise(System.String, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:25:52 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:25:52 INF]  Executed DbCommand (2ms) [Parameters=[@__Id_0='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`LocationId`, `t`.`Name`, `t`.`Id0`, `b0`.`Id`, `b0`.`BookableItemId`, `b0`.`Email`, `b0`.`From`, `b0`.`Name`, `b0`.`PhoneNumber`, `b0`.`To`, `t`.`City`, `t`.`Street`, `t`.`Zip`
+FROM (
+    SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`, `l`.`Id` AS `Id0`, `l`.`City`, `l`.`Street`, `l`.`Zip`
+    FROM `BookableItems` AS `b`
+    LEFT JOIN `Location` AS `l` ON `b`.`LocationId` = `l`.`Id`
+    WHERE `b`.`Id` = @__Id_0
+    LIMIT 2
+) AS `t`
+LEFT JOIN `Bookings` AS `b0` ON `t`.`Id` = `b0`.`BookableItemId`
+ORDER BY `t`.`Id`, `t`.`Id0`
+[2022-12-05 09:25:52 INF]  Executing OkObjectResult, writing value of type 'BookingApi.Models.DTOs.BookableItemDTO'.
+[2022-12-05 09:25:52 INF]  Executed action BookingApi.Controllers.BookableItemController.GetPractise (BookingApi) in 171.4416ms
+[2022-12-05 09:25:52 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.GetPractise (BookingApi)'
+[2022-12-05 09:25:52 INF]  Generating expiration headers.
+[2022-12-05 09:25:52 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:27:52 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:25:52 INF]  Generating Validation headers.
+[2022-12-05 09:25:52 INF]  Validation headers generated. ETag: Strong, "AF32A3B773BAAC3FC1BF9F8F190A4594". Last-Modified: Mon, 05 Dec 2022 08:25:52 GMT
+[2022-12-05 09:25:52 INF]  Generating Vary header.
+[2022-12-05 09:25:52 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:25:52 INF]  Request finished HTTP/1.1 GET https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - - - 200 2060 application/json;+charset=utf-8 407.6764ms
+[2022-12-05 09:35:25 INF]  Request starting HTTP/1.1 GET https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - -
+[2022-12-05 09:35:25 INF]  No cached response available for this request.
+[2022-12-05 09:35:25 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:35:25 INF]  Not valid - no If-None-Match or If-Modified-Since headers.
+[2022-12-05 09:35:25 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:35:25 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:35:25 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:35:25 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:35:25 INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2022-12-05 09:35:25 INF]  AuthenticationScheme: Bearer was challenged.
+[2022-12-05 09:35:25 INF]  Generating expiration headers.
+[2022-12-05 09:35:25 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:37:25 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:35:25 INF]  Not generating Validation headers as the response status code does not indicate success.
+[2022-12-05 09:35:25 INF]  Generating Vary header.
+[2022-12-05 09:35:25 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:35:25 INF]  The response could not be cached for this request.
+[2022-12-05 09:35:25 INF]  Request finished HTTP/1.1 GET https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - - - 401 0 - 32.7152ms
+[2022-12-05 09:35:32 INF]  Request starting HTTP/1.1 GET https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - -
+[2022-12-05 09:35:32 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:35:32 INF]  Not valid - no If-None-Match or If-Modified-Since headers.
+[2022-12-05 09:35:32 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:35:32 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:35:32 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:35:32 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:35:32 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.GetPractise (BookingApi)'
+[2022-12-05 09:35:32 INF]  Route matched with {action = "GetPractise", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPractise(System.String, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:35:32 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:35:32 INF]  Executed DbCommand (2ms) [Parameters=[@__Id_0='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`LocationId`, `t`.`Name`, `t`.`Id0`, `b0`.`Id`, `b0`.`BookableItemId`, `b0`.`Email`, `b0`.`From`, `b0`.`Name`, `b0`.`PhoneNumber`, `b0`.`To`, `t`.`City`, `t`.`Street`, `t`.`Zip`
+FROM (
+    SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`, `l`.`Id` AS `Id0`, `l`.`City`, `l`.`Street`, `l`.`Zip`
+    FROM `BookableItems` AS `b`
+    LEFT JOIN `Location` AS `l` ON `b`.`LocationId` = `l`.`Id`
+    WHERE `b`.`Id` = @__Id_0
+    LIMIT 2
+) AS `t`
+LEFT JOIN `Bookings` AS `b0` ON `t`.`Id` = `b0`.`BookableItemId`
+ORDER BY `t`.`Id`, `t`.`Id0`
+[2022-12-05 09:35:32 INF]  Executing OkObjectResult, writing value of type 'BookingApi.Models.DTOs.BookableItemDTO'.
+[2022-12-05 09:35:32 INF]  Executed action BookingApi.Controllers.BookableItemController.GetPractise (BookingApi) in 65.8931ms
+[2022-12-05 09:35:32 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.GetPractise (BookingApi)'
+[2022-12-05 09:35:32 INF]  Generating expiration headers.
+[2022-12-05 09:35:32 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:37:32 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:35:32 INF]  Generating Validation headers.
+[2022-12-05 09:35:32 INF]  Validation headers generated. ETag: Strong, "AF32A3B773BAAC3FC1BF9F8F190A4594". Last-Modified: Mon, 05 Dec 2022 08:35:32 GMT
+[2022-12-05 09:35:32 INF]  Generating Vary header.
+[2022-12-05 09:35:32 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:35:32 INF]  Request finished HTTP/1.1 GET https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - - - 200 2060 application/json;+charset=utf-8 69.8957ms
+[2022-12-05 09:38:32 INF]  Request starting HTTP/1.1 DELETE https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - -
+[2022-12-05 09:38:32 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:38:32 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:38:32 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:38:32 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:38:32 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:38:32 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:38:32 INF]  Executing endpoint '405 HTTP Method Not Supported'
+[2022-12-05 09:38:32 INF]  Executed endpoint '405 HTTP Method Not Supported'
+[2022-12-05 09:38:32 INF]  Generating expiration headers.
+[2022-12-05 09:38:32 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:40:32 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:38:32 INF]  Not generating Validation headers as the response status code does not indicate success.
+[2022-12-05 09:38:32 INF]  Generating Vary header.
+[2022-12-05 09:38:32 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:38:32 INF]  Request finished HTTP/1.1 DELETE https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - - - 405 0 - 2.1595ms
+[2022-12-05 09:38:56 INF]  
+
+[2022-12-05 09:38:57 INF]  Starting api
+[2022-12-05 09:38:57 INF]  User profile is available. Using 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-12-05 09:38:57 INF]  Now listening on: https://localhost:7206
+[2022-12-05 09:38:57 INF]  Now listening on: http://localhost:5045
+[2022-12-05 09:38:57 INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 09:38:57 INF]  Hosting environment: Development
+[2022-12-05 09:38:57 INF]  Content root path: C:\Users\victo_k58v34i\OneDrive\ITO\5. semester\C#-home\generic-booking-system\BookingApi\
+[2022-12-05 09:42:04 INF]  
+
+[2022-12-05 09:42:04 INF]  Starting api
+[2022-12-05 09:42:04 INF]  User profile is available. Using 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-12-05 09:42:04 INF]  Now listening on: https://localhost:7206
+[2022-12-05 09:42:04 INF]  Now listening on: http://localhost:5045
+[2022-12-05 09:42:04 INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 09:42:04 INF]  Hosting environment: Development
+[2022-12-05 09:42:04 INF]  Content root path: C:\Users\victo_k58v34i\OneDrive\ITO\5. semester\C#-home\generic-booking-system\BookingApi\
+[2022-12-05 09:42:45 INF]  Request starting HTTP/1.1 DELETE https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - -
+[2022-12-05 09:42:46 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:42:46 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:42:46 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:42:46 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:42:46 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:42:46 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:42:46 INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2022-12-05 09:42:46 INF]  AuthenticationScheme: Bearer was challenged.
+[2022-12-05 09:42:46 INF]  Generating expiration headers.
+[2022-12-05 09:42:46 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:44:46 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:42:46 INF]  Not generating Validation headers as the response status code does not indicate success.
+[2022-12-05 09:42:46 INF]  Generating Vary header.
+[2022-12-05 09:42:46 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:42:46 INF]  Request finished HTTP/1.1 DELETE https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - - - 401 0 - 214.7625ms
+[2022-12-05 09:42:51 INF]  Request starting HTTP/1.1 DELETE https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - -
+[2022-12-05 09:42:51 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:42:51 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:42:51 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:42:51 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:42:51 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:42:51 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:42:51 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.DeleteItem (BookingApi)'
+[2022-12-05 09:42:51 INF]  Route matched with {action = "DeleteItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteItem(System.String, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:42:52 WRN]  Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2022-12-05 09:42:52 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:42:52 INF]  Executed DbCommand (30ms) [Parameters=[@__Id_0='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`LocationId`, `t`.`Name`, `t`.`Id0`, `b0`.`Id`, `b0`.`BookableItemId`, `b0`.`Email`, `b0`.`From`, `b0`.`Name`, `b0`.`PhoneNumber`, `b0`.`To`, `t`.`City`, `t`.`Street`, `t`.`Zip`
+FROM (
+    SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`, `l`.`Id` AS `Id0`, `l`.`City`, `l`.`Street`, `l`.`Zip`
+    FROM `BookableItems` AS `b`
+    LEFT JOIN `Location` AS `l` ON `b`.`LocationId` = `l`.`Id`
+    WHERE `b`.`Id` = @__Id_0
+    LIMIT 2
+) AS `t`
+LEFT JOIN `Bookings` AS `b0` ON `t`.`Id` = `b0`.`BookableItemId`
+ORDER BY `t`.`Id`, `t`.`Id0`
+[2022-12-05 09:42:52 INF]  Executed DbCommand (5ms) [Parameters=[@__id_0='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`
+FROM `BookableItems` AS `b`
+WHERE `b`.`Id` = @__id_0
+LIMIT 2
+[2022-12-05 09:42:53 INF]  Executed DbCommand (7ms) [Parameters=[@p1='61449ea5-a4a0-41ec-8f31-73ab16208476' (Nullable = false) (Size = 255), @p0=NULL (Size = 255), @p3='66d447aa-326d-4d8b-a03d-1f7567b79e82' (Nullable = false) (Size = 255), @p2=NULL (Size = 255), @p5='6b18d22b-6448-4e08-8d73-12440f533de0' (Nullable = false) (Size = 255), @p4=NULL (Size = 255), @p7='6f4e84e0-5093-434f-989e-59ab415e1419' (Nullable = false) (Size = 255), @p6=NULL (Size = 255), @p9='7727f729-0631-498c-bd63-31b40959bf7e' (Nullable = false) (Size = 255), @p8=NULL (Size = 255), @p11='ae520510-53ae-41ca-b1e2-69809045c770' (Nullable = false) (Size = 255), @p10=NULL (Size = 255), @p13='c0b1bb0f-3288-4a5d-a938-961029f84f42' (Nullable = false) (Size = 255), @p12=NULL (Size = 255), @p15='dec26c8e-dace-4eac-a673-9bf4b82b7e70' (Nullable = false) (Size = 255), @p14=NULL (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Bookings` SET `BookableItemId` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+
+UPDATE `Bookings` SET `BookableItemId` = @p2
+WHERE `Id` = @p3;
+SELECT ROW_COUNT();
+
+UPDATE `Bookings` SET `BookableItemId` = @p4
+WHERE `Id` = @p5;
+SELECT ROW_COUNT();
+
+UPDATE `Bookings` SET `BookableItemId` = @p6
+WHERE `Id` = @p7;
+SELECT ROW_COUNT();
+
+UPDATE `Bookings` SET `BookableItemId` = @p8
+WHERE `Id` = @p9;
+SELECT ROW_COUNT();
+
+UPDATE `Bookings` SET `BookableItemId` = @p10
+WHERE `Id` = @p11;
+SELECT ROW_COUNT();
+
+UPDATE `Bookings` SET `BookableItemId` = @p12
+WHERE `Id` = @p13;
+SELECT ROW_COUNT();
+
+UPDATE `Bookings` SET `BookableItemId` = @p14
+WHERE `Id` = @p15;
+SELECT ROW_COUNT();
+[2022-12-05 09:42:53 INF]  Executed DbCommand (2ms) [Parameters=[@p16='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Nullable = false) (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM `BookableItems`
+WHERE `Id` = @p16;
+SELECT ROW_COUNT();
+[2022-12-05 09:42:53 INF]  Executing OkObjectResult, writing value of type 'System.Boolean'.
+[2022-12-05 09:42:53 INF]  Executed action BookingApi.Controllers.BookableItemController.DeleteItem (BookingApi) in 1334.2064ms
+[2022-12-05 09:42:53 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.DeleteItem (BookingApi)'
+[2022-12-05 09:42:53 INF]  Generating expiration headers.
+[2022-12-05 09:42:53 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:44:53 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:42:53 INF]  Generating Validation headers.
+[2022-12-05 09:42:53 INF]  Validation headers generated. ETag: Strong, "DFE046B38767C1AA16CEC9B63D07CE22". Last-Modified: Mon, 05 Dec 2022 08:42:53 GMT
+[2022-12-05 09:42:53 INF]  Generating Vary header.
+[2022-12-05 09:42:53 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:42:53 INF]  Request finished HTTP/1.1 DELETE https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - - - 200 4 application/json;+charset=utf-8 1574.6464ms
+[2022-12-05 09:43:00 INF]  Request starting HTTP/1.1 GET https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - -
+[2022-12-05 09:43:00 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:43:00 INF]  Not valid - no If-None-Match or If-Modified-Since headers.
+[2022-12-05 09:43:00 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:43:00 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:43:00 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:43:00 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:43:00 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.GetBookableItem (BookingApi)'
+[2022-12-05 09:43:00 INF]  Route matched with {action = "GetBookableItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookableItem(System.String, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:43:00 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:43:00 INF]  Executed DbCommand (1ms) [Parameters=[@__Id_0='b60fa6b2-0d78-4669-b879-b6d2fa088078' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`LocationId`, `t`.`Name`, `t`.`Id0`, `b0`.`Id`, `b0`.`BookableItemId`, `b0`.`Email`, `b0`.`From`, `b0`.`Name`, `b0`.`PhoneNumber`, `b0`.`To`, `t`.`City`, `t`.`Street`, `t`.`Zip`
+FROM (
+    SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`, `l`.`Id` AS `Id0`, `l`.`City`, `l`.`Street`, `l`.`Zip`
+    FROM `BookableItems` AS `b`
+    LEFT JOIN `Location` AS `l` ON `b`.`LocationId` = `l`.`Id`
+    WHERE `b`.`Id` = @__Id_0
+    LIMIT 2
+) AS `t`
+LEFT JOIN `Bookings` AS `b0` ON `t`.`Id` = `b0`.`BookableItemId`
+ORDER BY `t`.`Id`, `t`.`Id0`
+[2022-12-05 09:43:00 INF]  Executing NotFoundObjectResult, writing value of type 'System.String'.
+[2022-12-05 09:43:00 INF]  Executed action BookingApi.Controllers.BookableItemController.GetBookableItem (BookingApi) in 39.0918ms
+[2022-12-05 09:43:00 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.GetBookableItem (BookingApi)'
+[2022-12-05 09:43:00 INF]  Generating expiration headers.
+[2022-12-05 09:43:00 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:45:00 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:43:00 INF]  Not generating Validation headers as the response status code does not indicate success.
+[2022-12-05 09:43:00 INF]  Generating Vary header.
+[2022-12-05 09:43:00 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:43:00 INF]  Request finished HTTP/1.1 GET https://localhost:7206/api/BookableItem/b60fa6b2-0d78-4669-b879-b6d2fa088078 - - - 404 - text/plain;+charset=utf-8 49.9694ms
+[2022-12-05 09:43:07 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/BookableItem application/json 121
+[2022-12-05 09:43:07 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:43:07 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:43:07 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:43:07 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:43:07 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:43:07 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:43:07 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.AddBookableItem (BookingApi)'
+[2022-12-05 09:43:07 INF]  Route matched with {action = "AddBookableItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddBookableItem(BookingApi.Models.DTOs.AddBookableItemDTO, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:43:11 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:43:11 INF]  Executed DbCommand (1ms) [Parameters=[@p0='293e353c-9d9a-4828-ae03-9aff7d020225' (Nullable = false) (Size = 255), @p1='test desc' (Size = 4000), @p2='89bc61c3-7ec2-4f2e-b547-c99ccf062727' (Size = 255), @p3='test name' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `BookableItems` (`Id`, `Description`, `LocationId`, `Name`)
+VALUES (@p0, @p1, @p2, @p3);
+[2022-12-05 09:43:11 INF]  Executing OkObjectResult, writing value of type 'BookingApi.Database.Entities.BookableItem'.
+[2022-12-05 09:43:11 INF]  Executed action BookingApi.Controllers.BookableItemController.AddBookableItem (BookingApi) in 4066.7641ms
+[2022-12-05 09:43:11 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.AddBookableItem (BookingApi)'
+[2022-12-05 09:43:11 INF]  Generating expiration headers.
+[2022-12-05 09:43:11 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:45:11 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:43:11 INF]  Generating Validation headers.
+[2022-12-05 09:43:11 INF]  Validation headers generated. ETag: Strong, "2AB308D4B4547135B9DA6E18ECF97BFD". Last-Modified: Mon, 05 Dec 2022 08:43:11 GMT
+[2022-12-05 09:43:11 INF]  Generating Vary header.
+[2022-12-05 09:43:11 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:43:11 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/BookableItem application/json 121 - 200 174 application/json;+charset=utf-8 4071.5484ms
+[2022-12-05 09:43:25 INF]  Request starting HTTP/1.1 GET https://localhost:7206/api/BookableItem/293e353c-9d9a-4828-ae03-9aff7d020225 - -
+[2022-12-05 09:43:25 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:43:25 INF]  Not valid - no If-None-Match or If-Modified-Since headers.
+[2022-12-05 09:43:25 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:43:25 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:43:25 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:43:25 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:43:25 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.GetBookableItem (BookingApi)'
+[2022-12-05 09:43:25 INF]  Route matched with {action = "GetBookableItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookableItem(System.String, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:43:25 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:43:25 INF]  Executed DbCommand (3ms) [Parameters=[@__Id_0='293e353c-9d9a-4828-ae03-9aff7d020225' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`LocationId`, `t`.`Name`, `t`.`Id0`, `b0`.`Id`, `b0`.`BookableItemId`, `b0`.`Email`, `b0`.`From`, `b0`.`Name`, `b0`.`PhoneNumber`, `b0`.`To`, `t`.`City`, `t`.`Street`, `t`.`Zip`
+FROM (
+    SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`, `l`.`Id` AS `Id0`, `l`.`City`, `l`.`Street`, `l`.`Zip`
+    FROM `BookableItems` AS `b`
+    LEFT JOIN `Location` AS `l` ON `b`.`LocationId` = `l`.`Id`
+    WHERE `b`.`Id` = @__Id_0
+    LIMIT 2
+) AS `t`
+LEFT JOIN `Bookings` AS `b0` ON `t`.`Id` = `b0`.`BookableItemId`
+ORDER BY `t`.`Id`, `t`.`Id0`
+[2022-12-05 09:43:25 INF]  Executing OkObjectResult, writing value of type 'BookingApi.Models.DTOs.BookableItemDTO'.
+[2022-12-05 09:43:25 INF]  Executed action BookingApi.Controllers.BookableItemController.GetBookableItem (BookingApi) in 22.1469ms
+[2022-12-05 09:43:25 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.GetBookableItem (BookingApi)'
+[2022-12-05 09:43:25 INF]  Generating expiration headers.
+[2022-12-05 09:43:25 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:45:25 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:43:25 INF]  Generating Validation headers.
+[2022-12-05 09:43:25 INF]  Validation headers generated. ETag: Strong, "BAC77350FA0B43D95A1E80C1D8A1B011". Last-Modified: Mon, 05 Dec 2022 08:43:25 GMT
+[2022-12-05 09:43:25 INF]  Generating Vary header.
+[2022-12-05 09:43:25 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:43:25 INF]  Request finished HTTP/1.1 GET https://localhost:7206/api/BookableItem/293e353c-9d9a-4828-ae03-9aff7d020225 - - - 200 220 application/json;+charset=utf-8 23.9936ms
+[2022-12-05 09:43:41 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/BookableItem/Book application/json 235
+[2022-12-05 09:43:41 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:43:41 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 09:43:41 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:43:41 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:43:41 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:43:41 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:43:41 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.BookItem (BookingApi)'
+[2022-12-05 09:43:41 INF]  Route matched with {action = "BookItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookItem(BookingApi.Models.DTOs.BookingDTO, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:43:41 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:43:41 INF]  Executed DbCommand (1ms) [Parameters=[@p0='caf9961b-3d75-4d5a-b4e4-35550d6c92c6' (Nullable = false) (Size = 255), @p1='293e353c-9d9a-4828-ae03-9aff7d020225' (Size = 255), @p2='test@test.com' (Size = 4000), @p3='2022-09-22T16:00:00.0000000' (DbType = DateTime), @p4='another Test person' (Size = 4000), @p5='12345678' (Size = 4000), @p6='2022-09-22T18:00:00.0000000' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Bookings` (`Id`, `BookableItemId`, `Email`, `From`, `Name`, `PhoneNumber`, `To`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2022-12-05 09:43:44 INF]  Executed DbCommand (1ms) [Parameters=[@__bookingId_0='caf9961b-3d75-4d5a-b4e4-35550d6c92c6' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `b`.`Id`, `b`.`BookableItemId`, `b`.`Email`, `b`.`From`, `b`.`Name`, `b`.`PhoneNumber`, `b`.`To`
+FROM `Bookings` AS `b`
+WHERE `b`.`Id` = @__bookingId_0
+LIMIT 2
+[2022-12-05 09:43:44 INF]  Executed DbCommand (1ms) [Parameters=[@__BookableItemId_0='293e353c-9d9a-4828-ae03-9aff7d020225' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`LocationId`, `t`.`Name`, `b0`.`Id`, `b0`.`BookableItemId`, `b0`.`Email`, `b0`.`From`, `b0`.`Name`, `b0`.`PhoneNumber`, `b0`.`To`
+FROM (
+    SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`
+    FROM `BookableItems` AS `b`
+    WHERE `b`.`Id` = @__BookableItemId_0
+    LIMIT 2
+) AS `t`
+LEFT JOIN `Bookings` AS `b0` ON `t`.`Id` = `b0`.`BookableItemId`
+ORDER BY `t`.`Id`
+[2022-12-05 09:43:44 INF]  Executing StatusCodeResult, setting HTTP status code 204
+[2022-12-05 09:43:44 INF]  Executed action BookingApi.Controllers.BookableItemController.BookItem (BookingApi) in 3152.1786ms
+[2022-12-05 09:43:44 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.BookItem (BookingApi)'
+[2022-12-05 09:43:44 INF]  Generating expiration headers.
+[2022-12-05 09:43:44 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:45:44 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:43:44 INF]  Generating Validation headers.
+[2022-12-05 09:43:44 INF]  Validation headers generated. ETag: Strong, "20FF3900B96270B9259FB619A09076B8". Last-Modified: Mon, 05 Dec 2022 08:43:44 GMT
+[2022-12-05 09:43:44 INF]  Generating Vary header.
+[2022-12-05 09:43:44 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:43:44 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/BookableItem/Book application/json 235 - 204 - - 3155.6001ms
+[2022-12-05 09:43:48 INF]  Request starting HTTP/1.1 GET https://localhost:7206/api/BookableItem/293e353c-9d9a-4828-ae03-9aff7d020225 - -
+[2022-12-05 09:43:48 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 09:43:48 INF]  Not valid - no If-None-Match or If-Modified-Since headers.
+[2022-12-05 09:43:48 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 09:43:48 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 09:43:48 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 09:43:48 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 09:43:48 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.GetBookableItem (BookingApi)'
+[2022-12-05 09:43:48 INF]  Route matched with {action = "GetBookableItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookableItem(System.String, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 09:43:48 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 09:43:48 INF]  Executed DbCommand (2ms) [Parameters=[@__Id_0='293e353c-9d9a-4828-ae03-9aff7d020225' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`LocationId`, `t`.`Name`, `t`.`Id0`, `b0`.`Id`, `b0`.`BookableItemId`, `b0`.`Email`, `b0`.`From`, `b0`.`Name`, `b0`.`PhoneNumber`, `b0`.`To`, `t`.`City`, `t`.`Street`, `t`.`Zip`
+FROM (
+    SELECT `b`.`Id`, `b`.`Description`, `b`.`LocationId`, `b`.`Name`, `l`.`Id` AS `Id0`, `l`.`City`, `l`.`Street`, `l`.`Zip`
+    FROM `BookableItems` AS `b`
+    LEFT JOIN `Location` AS `l` ON `b`.`LocationId` = `l`.`Id`
+    WHERE `b`.`Id` = @__Id_0
+    LIMIT 2
+) AS `t`
+LEFT JOIN `Bookings` AS `b0` ON `t`.`Id` = `b0`.`BookableItemId`
+ORDER BY `t`.`Id`, `t`.`Id0`
+[2022-12-05 09:43:48 INF]  Executing OkObjectResult, writing value of type 'BookingApi.Models.DTOs.BookableItemDTO'.
+[2022-12-05 09:43:48 INF]  Executed action BookingApi.Controllers.BookableItemController.GetBookableItem (BookingApi) in 9.4789ms
+[2022-12-05 09:43:48 INF]  Executed endpoint 'BookingApi.Controllers.BookableItemController.GetBookableItem (BookingApi)'
+[2022-12-05 09:43:48 INF]  Generating expiration headers.
+[2022-12-05 09:43:48 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 08:45:48 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 09:43:48 INF]  Generating Validation headers.
+[2022-12-05 09:43:48 INF]  Validation headers generated. ETag: Strong, "7D1CAE85F85750323A99DBE5C70F0FD3". Last-Modified: Mon, 05 Dec 2022 08:43:48 GMT
+[2022-12-05 09:43:48 INF]  Generating Vary header.
+[2022-12-05 09:43:48 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 09:43:48 INF]  Request finished HTTP/1.1 GET https://localhost:7206/api/BookableItem/293e353c-9d9a-4828-ae03-9aff7d020225 - - - 200 455 application/json;+charset=utf-8 11.1936ms
+[2022-12-05 10:53:38 INF]  
+
+[2022-12-05 10:53:38 INF]  Starting api
+[2022-12-05 10:53:38 INF]  User profile is available. Using 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-12-05 10:53:38 INF]  Now listening on: https://localhost:7206
+[2022-12-05 10:53:38 INF]  Now listening on: http://localhost:5045
+[2022-12-05 10:53:38 INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 10:53:38 INF]  Hosting environment: Development
+[2022-12-05 10:53:38 INF]  Content root path: C:\Users\victo_k58v34i\OneDrive\ITO\5. semester\C#-home\generic-booking-system\BookingApi\
+[2022-12-05 11:01:16 INF]  
+
+[2022-12-05 11:01:16 INF]  Starting api
+[2022-12-05 11:01:17 INF]  User profile is available. Using 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-12-05 11:01:17 INF]  Now listening on: https://localhost:7206
+[2022-12-05 11:01:17 INF]  Now listening on: http://localhost:5045
+[2022-12-05 11:01:17 INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 11:01:17 INF]  Hosting environment: Development
+[2022-12-05 11:01:17 INF]  Content root path: C:\Users\victo_k58v34i\OneDrive\ITO\5. semester\C#-home\generic-booking-system\BookingApi\
+[2022-12-05 11:02:14 INF]  
+
+[2022-12-05 11:02:14 INF]  Starting api
+[2022-12-05 11:02:14 INF]  User profile is available. Using 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-12-05 11:02:14 INF]  Now listening on: https://localhost:7206
+[2022-12-05 11:02:14 INF]  Now listening on: http://localhost:5045
+[2022-12-05 11:02:14 INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 11:02:14 INF]  Hosting environment: Development
+[2022-12-05 11:02:14 INF]  Content root path: C:\Users\victo_k58v34i\OneDrive\ITO\5. semester\C#-home\generic-booking-system\BookingApi\
+[2022-12-05 11:02:16 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/Auth/register application/json 273
+[2022-12-05 11:02:16 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 11:02:16 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 11:02:16 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 11:02:16 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 11:02:16 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 11:02:16 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 11:02:16 INF]  Executing endpoint 'BookingApi.Controllers.AuthController.Register (BookingApi)'
+[2022-12-05 11:02:16 INF]  Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(BookingApi.Models.DTOs.CreateUserDTO) on controller BookingApi.Controllers.AuthController (BookingApi).
+[2022-12-05 11:02:16 INF]  Init registration attempt: user@example.com
+[2022-12-05 11:02:16 WRN]  Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2022-12-05 11:02:16 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 
+[2022-12-05 11:02:17 INF]  Executed DbCommand (31ms) [Parameters=[@__normalizedUserName_0='USER' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Birthdate`, `a`.`City`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`Firstname`, `a`.`Lastname`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`SecurityStamp`, `a`.`Street`, `a`.`TeamId`, `a`.`Timestamp`, `a`.`UserName`, `a`.`Zip`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1
+[2022-12-05 11:02:17 INF]  Executed DbCommand (5ms) [Parameters=[@__normalizedEmail_0='USER@EXAMPLE.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Birthdate`, `a`.`City`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`Firstname`, `a`.`Lastname`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`SecurityStamp`, `a`.`Street`, `a`.`TeamId`, `a`.`Timestamp`, `a`.`UserName`, `a`.`Zip`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedEmail` = @__normalizedEmail_0
+LIMIT 2
+[2022-12-05 11:02:17 WRN]  User validation failed: DuplicateUserName;DuplicateEmail.
+[2022-12-05 11:02:17 INF]  Error code: DuplicateUserName
+[2022-12-05 11:02:17 INF]  Error description: Username 'user' is already taken.
+[2022-12-05 11:02:17 INF]  Error code: DuplicateEmail
+[2022-12-05 11:02:17 INF]  Error description: Email 'user@example.com' is already taken.
+[2022-12-05 11:02:17 INF]  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+[2022-12-05 11:02:17 INF]  Executed action BookingApi.Controllers.AuthController.Register (BookingApi) in 1011.5072ms
+[2022-12-05 11:02:17 INF]  Executed endpoint 'BookingApi.Controllers.AuthController.Register (BookingApi)'
+[2022-12-05 11:02:17 INF]  Generating expiration headers.
+[2022-12-05 11:02:17 INF]  Expiration headers generated. Expires: Mon, 05 Dec 2022 10:04:17 GMT. Cache-Control: private,max-age=120,must-revalidate.
+[2022-12-05 11:02:17 INF]  Not generating Validation headers as the response status code does not indicate success.
+[2022-12-05 11:02:17 INF]  Generating Vary header.
+[2022-12-05 11:02:17 INF]  Vary header generated: Accept, Accept-Language, Accept-Encoding.
+[2022-12-05 11:02:17 INF]  Request finished HTTP/1.1 POST https://localhost:7206/api/Auth/register application/json 273 - 400 123 application/json;+charset=utf-8 1240.2887ms
+[2022-12-05 11:02:32 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/Auth/login application/json 57
+[2022-12-05 11:02:32 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 11:02:32 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 11:02:32 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 11:02:32 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 11:02:32 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 11:02:32 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 11:02:32 INF]  Executing endpoint 'BookingApi.Controllers.AuthController.Login (BookingApi)'
+[2022-12-05 11:02:32 INF]  Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BookingApi.Models.DTOs.LoginUserDTO) on controller BookingApi.Controllers.AuthController (BookingApi).
+[2022-12-05 11:02:32 INF]  Init login attempt: user@example.com
+[2022-12-05 11:07:27 INF]  
+
+[2022-12-05 11:07:27 INF]  Starting api
+[2022-12-05 11:07:27 INF]  User profile is available. Using 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-12-05 11:07:27 INF]  Now listening on: https://localhost:7206
+[2022-12-05 11:07:27 INF]  Now listening on: http://localhost:5045
+[2022-12-05 11:07:27 INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 11:07:27 INF]  Hosting environment: Development
+[2022-12-05 11:07:27 INF]  Content root path: C:\Users\victo_k58v34i\OneDrive\ITO\5. semester\C#-home\generic-booking-system\BookingApi\
+[2022-12-05 11:08:33 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/Auth/login application/json 57
+[2022-12-05 11:08:33 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 11:08:33 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 11:08:33 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 11:08:33 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 11:08:33 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 11:08:33 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 11:08:33 INF]  Executing endpoint 'BookingApi.Controllers.AuthController.Login (BookingApi)'
+[2022-12-05 11:08:33 INF]  Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BookingApi.Models.DTOs.LoginUserDTO) on controller BookingApi.Controllers.AuthController (BookingApi).
+[2022-12-05 11:08:33 INF]  Init login attempt: user@example.com
+[2022-12-05 11:09:28 INF]  
+
+[2022-12-05 11:09:28 INF]  Starting api
+[2022-12-05 11:09:28 INF]  User profile is available. Using 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-12-05 11:09:28 INF]  Now listening on: https://localhost:7206
+[2022-12-05 11:09:28 INF]  Now listening on: http://localhost:5045
+[2022-12-05 11:09:28 INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 11:09:28 INF]  Hosting environment: Development
+[2022-12-05 11:09:28 INF]  Content root path: C:\Users\victo_k58v34i\OneDrive\ITO\5. semester\C#-home\generic-booking-system\BookingApi\
+[2022-12-05 12:07:58 INF]  
+
+[2022-12-05 12:07:58 INF]  Starting api
+[2022-12-05 12:07:58 INF]  User profile is available. Using 'C:\Users\victo_k58v34i\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-12-05 12:07:58 INF]  Now listening on: https://localhost:7206
+[2022-12-05 12:07:58 INF]  Now listening on: http://localhost:5045
+[2022-12-05 12:07:58 INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 12:07:58 INF]  Hosting environment: Development
+[2022-12-05 12:07:58 INF]  Content root path: C:\Users\victo_k58v34i\OneDrive\ITO\5. semester\C#-home\generic-booking-system\BookingApi\
+[2022-12-05 12:08:00 INF]  Request starting HTTP/1.1 POST https://localhost:7206/api/BookableItem application/json 121
+[2022-12-05 12:08:00 INF]  Checking for conditional GET/HEAD.
+[2022-12-05 12:08:00 INF]  Not valid - method isn't GET or HEAD.
+[2022-12-05 12:08:00 INF]  Don't generate 304 - Not Modified.  Continue.
+[2022-12-05 12:08:00 INF]  Checking for conditional PUT/PATCH.
+[2022-12-05 12:08:00 INF]  Not valid - method isn't PUT or PATCH.
+[2022-12-05 12:08:00 INF]  Don't generate 412 - Precondition Failed.  Continue.
+[2022-12-05 12:08:00 INF]  Executing endpoint 'BookingApi.Controllers.BookableItemController.AddBookableItem (BookingApi)'
+[2022-12-05 12:08:00 INF]  Route matched with {action = "AddBookableItem", controller = "BookableItem"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddBookableItem(BookingApi.Models.DTOs.AddBookableItemDTO, System.Threading.CancellationToken) on controller BookingApi.Controllers.BookableItemController (BookingApi).
+[2022-12-05 12:08:00 WRN]  Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2022-12-05 12:08:00 INF]  Entity Framework Core 6.0.4 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: SensitiveDataLoggingEnabled ServerVersion 8.0.30-mysql 

@@ -1,109 +1,87 @@
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Text;
-
-
-using Microsoft.EntityFrameworkCore;
+using AspNetCoreRateLimit;
+using BookingApi.Configuration;
 using BookingApi.Database;
-using BookingApi.Database.Entities;
-using BookingApi.Controllers;
-using BookingApi;
-
-
+using BookingApi.Repositories;
+using BookingApi.Services;
+using BookingApi.Utils;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddDbContext<DatabaseContext>(options => { options.EnableSensitiveDataLogging(); });
+builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddControllers();
-builder.Services.AddDbContext<DatabaseContext>();
+builder.Services.AddScoped<IAuth, Auth>();
+builder.Services.AddScoped<BookableItemRepository>();
+builder.Services.AddScoped<LocationRepository>();
+builder.Services.AddScoped<BookingRepository>();
+builder.Services.AddScoped<TokenUtils>();
 
+builder.Services.AddMemoryCache();
+builder.Services.ConfigureRateLimit();
+builder.Services.AddHttpContextAccessor();
+builder.Services.ConfigureApiVersioning();
+builder.Services.ConfigureCors();
+builder.Services.ConfigureHttpCacheHeaders();
+builder.Services.AddAuthentication();
+builder.Services.AddAuthorization();
+builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJwt(builder.Configuration);
+builder.Services.AddAutoMapper(typeof(ObjectMapper));
 
-//builder.Services.AddSwaggerGen(c =>
-//{
-//    c.SwaggerDoc("v1", new() { Title = "BookingApi", Version = "v1" });
-//});
+var logger = new LoggerConfiguration()
+    .ReadFrom
+    .Configuration(builder.Configuration)
+    .Enrich
+    .FromLogContext()
+    .CreateLogger();
+
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(logger);
+
+builder.Services
+    .AddControllers(config => {
+        config
+            .CacheProfiles
+            .Add("duration120sec", new CacheProfile {Duration = 120});
+    })
+    .AddNewtonsoftJson(options => {
+        options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+    });
+
+using (var client = new DatabaseContext())
+    {
+        client.Database.EnsureCreated();
+    }
+
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (builder.Environment.IsDevelopment())
-{
-    app.UseDeveloperExceptionPage();
-    //app.UseSwagger();
-    //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BookingApi v1"));
-}
+app.ConfigureExceptionHandler();
+app.UseCors("CorsPolicyAllowAll");
+app.UseResponseCaching();
+app.UseHttpCacheHeaders();
+app.UseIpRateLimiting();
 
-app.UseHttpsRedirection();
+// app.UseHsts();
+app.UseRouting();
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
-app.Run();
 
-/*
-namespace BookingApi.Database
-{
-  class Program
-  {
-    static void Main(string[] args)
-    {
-      InsertData();
-      PrintData();
-    }
-
-    private static void InsertData()
-    {
-      using(var context = new DatabaseContext())
-      {
-        // Creates the database if not exists
-        context.Database.EnsureCreated();
-
-        // Adds a bookable item
-        var bookableItem = new BookableItem
-        {
-          Name = "Table 1",
-          Location = "Test Location",
-          Description = "This is a description of the bookable item",
-        };
-        context.BookableItem.Add(bookableItem);
-
-        // Adds some bookings
-        context.Booking.Add(new Booking
-        {
-          ContactPerson = "Victor Kongsbak",
-          BookedItem = bookableItem
-        });
-        context.Booking.Add(new Booking
-        {
-          ContactPerson = "Test Name",
-          BookedItem = bookableItem
-        });
-
-        // Saves changes
-        context.SaveChanges();
-      }
-    }
-
-    private static void PrintData()
-    {
-      // Gets and prints all books in database
-      using (var context = new DatabaseContext())
-      {
-        var bookings = context.Booking
-          .Include(p => p.BookedItem);
-        foreach(var booking in bookings)
-        {
-          var data = new StringBuilder();
-          data.AppendLine($"ContactPerson: {booking.ContactPerson}");
-          data.AppendLine($"BookedItem: {booking.BookedItem.Name}");
-          Console.WriteLine(data.ToString());
-        }
-      }
-    }
-  }
+try {
+    logger.Information("\n");
+    logger.Information("Starting api");
+    app.Run();
 }
-
-*/
-
-
-
+catch (Exception e) {
+    logger.Fatal(e, "Failed on startup");
+}
+finally {
+    logger.Information("Exiting");
+    logger.Dispose();
+}
