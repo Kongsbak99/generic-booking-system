@@ -27,13 +27,15 @@ public class AuthController : ControllerBase {
     }
 
     [HttpPost("login", Name = "Login")]
-    public async Task<IActionResult> Login([FromBody] LoginUserDTO loginUserDto) {
-        _logger.LogInformation($"Init login attempt: {loginUserDto.Email}");
+    [ProducesResponseType(StatusCodes.Status202Accepted)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    public async Task<IActionResult> Login([FromBody] LoginDTO dto) {
+        _logger.LogInformation($"Init login attempt: {dto.Email}");
         if (!ModelState.IsValid) {
             return BadRequest(ModelState);
         }
 
-        if (await _auth.Validate(loginUserDto)) {
+        if (await _auth.Validate(dto)) {
             return Accepted(new {Token = await _auth.GenerateToken()});
         }
 
@@ -56,7 +58,7 @@ public class AuthController : ControllerBase {
         var result = await _userManager.CreateAsync(user, userDto.Password);
 
         if (result.Succeeded) {
-            var role = new List<string> {"User"};
+            var role = userDto.Roles;
             await _userManager.AddToRolesAsync(user, role);
             return Accepted();
         }

@@ -18,9 +18,9 @@ public class Auth : IAuth {
         _configuration = configuration;
     }
 
-    public async Task<bool> Validate(LoginUserDTO loginUserDto) {
-        _user = await _userManager.FindByNameAsync(loginUserDto.Email);
-        return (_user != null && await _userManager.CheckPasswordAsync(_user, loginUserDto.Password));
+    public async Task<bool> Validate(LoginDTO dto) {
+        _user = await _userManager.FindByNameAsync(dto.Email);
+        return (_user != null && await _userManager.CheckPasswordAsync(_user, dto.Password));
     }
 
     public async Task<string> GenerateToken() {

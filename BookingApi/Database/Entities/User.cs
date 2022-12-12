@@ -9,6 +9,5 @@ public class User : IdentityUser, IEntity {
     public string Zip { get; set; }
     public string Street { get; set; }
     public DateTime Birthdate { get; set; }
-    public string TeamId { get; set; }
-    public byte[] Timestamp { get; set; }
+
 }

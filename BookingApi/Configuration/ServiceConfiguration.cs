@@ -33,7 +33,7 @@ public static class ServiceConfiguration {
         var ruleList = new List<RateLimitRule> {
             new RateLimitRule {
                 Endpoint = "*",
-                Period = "2s",
+                Period = "0.5s",
                 Limit = 20
             }
         };
@@ -77,7 +77,7 @@ public static class ServiceConfiguration {
         s.AddResponseCaching();
         s.AddHttpCacheHeaders(
             expirationOptions => {
-                expirationOptions.MaxAge = 120;
+                expirationOptions.MaxAge = 180;
                 expirationOptions.CacheLocation = CacheLocation.Private;
             },
             (validationOptions) => { validationOptions.MustRevalidate = true; }
@@ -94,7 +94,7 @@ public static class ServiceConfiguration {
                     Log.Error($"Error in {contextFeature.Error}");
                     await context.Response.WriteAsync(new Error {
                         StatusCode = context.Response.StatusCode,
-                        Message = $"Internal server error" 
+                        Message = $"Internal server error. Please contact the issuer of this api, if the problem persist." 
                     }.ToString());
                 }
             });

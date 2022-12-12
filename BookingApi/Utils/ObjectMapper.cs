@@ -15,5 +15,8 @@ public class ObjectMapper : Profile {
 
         CreateMap<User, UserDTO>().ReverseMap();
         CreateMap<User, CreateUserDTO>().ReverseMap();
+        CreateMap<User, LoginDTO>().ReverseMap();
     }
 }
+
+

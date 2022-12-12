@@ -25,7 +25,7 @@ public class CreateUserDTO {
     [Required] public string Street { get; set; }
     [Required] public string PhoneNumber { get; set; }
 }
-public class LoginUserDTO {
+public class LoginDTO {
     [Required]
     public string Email { get; set; }
 

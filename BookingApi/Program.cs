@@ -1,13 +1,15 @@
-using AspNetCoreRateLimit;
 using BookingApi.Configuration;
 using BookingApi.Database;
+using BookingApi.Utils;
 using BookingApi.Repositories;
 using BookingApi.Services;
-using BookingApi.Utils;
+
+using AspNetCoreRateLimit;
+
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Microsoft.OpenApi.Models;
+
 using Serilog;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,10 +28,12 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.ConfigureApiVersioning();
 builder.Services.ConfigureCors();
 builder.Services.ConfigureHttpCacheHeaders();
+
 builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
 builder.Services.ConfigureIdentity();
 builder.Services.ConfigureJwt(builder.Configuration);
+
 builder.Services.AddAutoMapper(typeof(ObjectMapper));
 
 var logger = new LoggerConfiguration()
@@ -38,7 +42,6 @@ var logger = new LoggerConfiguration()
     .Enrich
     .FromLogContext()
     .CreateLogger();
-
 builder.Logging.ClearProviders();
 builder.Logging.AddSerilog(logger);
 
@@ -65,8 +68,6 @@ app.UseCors("CorsPolicyAllowAll");
 app.UseResponseCaching();
 app.UseHttpCacheHeaders();
 app.UseIpRateLimiting();
-
-// app.UseHsts();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();

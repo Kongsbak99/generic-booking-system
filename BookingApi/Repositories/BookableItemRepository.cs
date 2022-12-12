@@ -16,8 +16,6 @@ public class BookableItemRepository : GenericRepository<BookableItem, DatabaseCo
             .BookableItems
             .Include(x => x.Location)
             .ToListAsync(ct);
-
-
         return bookable_items;
     }
 
@@ -29,8 +27,6 @@ public class BookableItemRepository : GenericRepository<BookableItem, DatabaseCo
             .Include(x => x.Bookings)
             .Include(x => x.Location)
             .SingleOrDefaultAsync(ct);
-
-
         return bookable_item;
     }
 
@@ -38,8 +34,6 @@ public class BookableItemRepository : GenericRepository<BookableItem, DatabaseCo
         var booking = await _context
             .Bookings
             .SingleOrDefaultAsync(x => x.Id == bookingId, ct);
-
-
         var bookable_item = await _context.BookableItems.Where(x => x.Id == BookableItemId)
             .Include(x => x.Bookings)
             .SingleOrDefaultAsync(ct);
@@ -49,7 +43,6 @@ public class BookableItemRepository : GenericRepository<BookableItem, DatabaseCo
             await _context.SaveChangesAsync(ct);
             return true;
         }
-
         return false;
     }
 
